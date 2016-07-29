@@ -1,0 +1,72 @@
+/*common styles*/
+
+/*endof common styles*/
+
+/*header styles*/
+
+/*endof header styles*/
+/*content styles*/
+
+/*endof content styles*/
+/*footer styles*/
+
+/*endof footer styles*/
+/*social buttons styles*/
+
+.social-btns{
+    width: 50px;
+    position: fixed;
+    top: 110px;
+    left: 10px;
+}
+.social-btn{
+    display: block;
+    border-radius: 15%;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: 10%;
+    vertical-align: middle;
+}
+.btn-fb{
+    background-color: rgba(59,89,152,0.5);
+}
+.btn-fb:hover{
+    background-color: rgba(59,89,152,1);
+}
+.btn-gpl{
+    background-color: rgba(221,75,57,0.5);
+}
+.btn-gpl:hover{
+    background-color: rgba(221,75,57,1);
+}
+.btn-li{
+    background-color: rgba(0,119,181,0.5);
+}
+.btn-li:hover{
+    background-color: rgba(0,119,181,1);
+}
+.btn-tw{
+    background-color: rgba(0, 172, 237,0.5);
+}
+.btn-tw:hover{
+    background-color: rgba(0, 172, 237,1);
+}
+.btn-vk{
+    background-color: rgba(69, 102, 142,0.5);
+}
+.btn-vk:hover{
+    background-color: rgba(69, 102, 142,1);
+}
+.btn-fb:hover, .btn-gpl:hover, .btn-li:hover, .btn-tw:hover, .btn-vk:hover{
+    color: white;
+}
+.i-btn-vk{
+    margin-left: -3px;
+    margin-right: 3px;
+}
+
+/*endof social buttons styles*/
+/*form styles*/
+
+/*endof form styles*/
