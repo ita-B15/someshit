@@ -35,25 +35,25 @@
     background-color: rgba(59,89,152,1);
 }
 .btn-gpl{
-    background-color: rgba(221,75,57,0.5);
+    background-color: rgba(221,75,57,0.7);
 }
 .btn-gpl:hover{
     background-color: rgba(221,75,57,1);
 }
 .btn-li{
-    background-color: rgba(0,119,181,0.5);
+    background-color: rgba(0,119,181,0.7);
 }
 .btn-li:hover{
     background-color: rgba(0,119,181,1);
 }
 .btn-tw{
-    background-color: rgba(0, 172, 237,0.5);
+    background-color: rgba(0, 172, 237,0.7);
 }
 .btn-tw:hover{
     background-color: rgba(0, 172, 237,1);
 }
 .btn-vk{
-    background-color: rgba(69, 102, 142,0.5);
+    background-color: rgba(69, 102, 142,0.7);
 }
 .btn-vk:hover{
     background-color: rgba(69, 102, 142,1);
