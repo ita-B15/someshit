@@ -12,28 +12,73 @@
 
 /*endof footer styles*/
 /*social buttons styles*/
-
+.graddd{
+    height: 3000px;
+    background: white;
+    background: linear-gradient(red, black);
+}
 .social-btns{
-    width: 50px;
     position: fixed;
-    top: 110px;
-    left: 10px;
+    top: 10px;
+    left: 15px;
 }
 .social-btn{
-    display: block;
-    border-radius: 15%;
-    color: white;
-    font-size: 25px;
-    margin-bottom: 20px;
-    padding: 10%;
+
     vertical-align: middle;
+    display: block;
+    border-radius: 24%;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-top: 3px;
+    height: 47px;
+    width: 47px;
+}
+.btn-menu{
+    background-color: rgba(75, 117, 164,0.7);
+    border-radius: 5%;
+    font-size: 43px;
+    padding-top: -10px;
+    position: fixed;
+    padding-bottom: 0px;
+}
+.btn-menu:hover{
+    background-color: rgba(75, 117, 164,1);
+}
+.i-btn-menu{
+    position: fixed;
+    top: 3px;
+    left: 9px;
 }
 .btn-fb{
-    background-color: rgba(59,89,152,0.5);
+    font-size: 40px;
+    position: relative;
+    /*transition: width 2s, height 2s, left 3s;*/
+    padding-top: 0px;
+    /*padding-left: 5px;*/
+    background-color: rgba(59,89,152,0.6);
+    margin-top:90px
 }
 .btn-fb:hover{
-    background-color: rgba(59,89,152,1);
+    /*padding-left: 15px;*/
+/*animation: mymove;*/
+/*left: 100px;*/
+/*width: 300px;*/
+/*height: 300px;*/
+background-color: rgba(59,89,152,1);
 }
+/*div:hover{*/
+    /*animation: mymove 4s infinite;*/
+/*}*/
+/*@keyframes mymove {*/
+    /*0% {top: 0px; width: 100px}*/
+    /*25% {top: calc(100vh - 110px);left: 0px; width: 100px}*/
+    /*50% {top: calc(100vh - 110px);left: calc(100vw - 110px);  width: 100px}*/
+    /*75% {top: 0px;left: calc(100vw - 110px); width: 100px}*/
+    /*100% { top: 0px; left: 0px; width: 100px}*/
+
+/*}*/
 .btn-gpl{
     background-color: rgba(221,75,57,0.7);
 }
@@ -42,6 +87,18 @@
 }
 .btn-li{
     background-color: rgba(0,119,181,0.7);
+    font-size: 38px;
+    padding-top: 0px;
+    padding-left: 1px;
+    /*padding-bottom: 20px;*/
+}
+.i-btn-li{
+    margin-bottom: 8px;
+    margin-left: -4px;
+    /*position: fixed;*/
+    /*top: 230px;*/
+    /*left: 11px;*/
+    /*padding-top: -5px;*/
 }
 .btn-li:hover{
     background-color: rgba(0,119,181,1);
@@ -54,16 +111,17 @@
 }
 .btn-vk{
     background-color: rgba(69, 102, 142,0.7);
+    padding-top: 0px;
 }
 .btn-vk:hover{
     background-color: rgba(69, 102, 142,1);
 }
-.btn-fb:hover, .btn-gpl:hover, .btn-li:hover, .btn-tw:hover, .btn-vk:hover{
+.btn-menu:hover, .btn-fb:hover, .btn-gpl:hover, .btn-li:hover, .btn-tw:hover, .btn-vk:hover{
     color: white;
 }
 .i-btn-vk{
-    margin-left: -3px;
-    margin-right: 3px;
+    margin-left: -1px;
+    margin-right: 1px;
 }
 
 /*endof social buttons styles*/

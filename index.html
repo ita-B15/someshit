@@ -3,55 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Intita first page</title>
-    
-<!--    styles-->
+    <meta name="viewport" content="wigth=device-wigth,initial-scale=1,maximum-scale=1.0,user-scalable=0">
+
+    <!--    styles-->
     <link rel="stylesheet" href="external_libs/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="external_libs/fontello/css/fontello.css">
+    <script src="external_libs/jquery/jquery.min.js"></script>
 
-<!--    end of styles-->
+
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+
+
 <!--fonts-->
 
-
-<!--endof fonts-->
+    <!--endof fonts-->
 
 </head>
+<!--    end of styles-->
 
 <body>
 <!--    header-->
 
 <!--   endof header-->
 <!--   content-->
-    <!--buttons block-->
+<!--buttons block-->
 <div class="social-btns">
+    <div id="min-menu" class='btn social-btn btn-menu' style="display: none">
+        <i class='icon-menu i-btn-menu'></i>
+    </div>
 
-    <a href="https://www.facebook.com/intita.hr/">
+
+    <a href="#">
         <div class="btn social-btn btn-fb">
-            <i class="demo-icon icon-facebook"></i>
+            <i class="icon-facebook"></i>
         </div>
     </a>
-    <a href="https://intita.com/#">
+    <a href="#">
         <div class="btn social-btn btn-gpl">
-            <i class="demo-icon icon-gplus"></i>
+            <i class="icon-gplus"></i>
         </div>
     </a>
-    <a href="https://intita.com/#">
-        <div class="btn social-btn btn-li">
-            <i class="demo-icon icon-linkedin"></i>
+    <a href="#">
+        <div class="btn social-btn btn-li" >
+            <i class="icon-linkedin i-btn-li"></i>
         </div>
     </a>
-    <a href="https://intita.com/#">
+    <a href="#" >
         <div class="btn social-btn btn-tw">
-            <i class="demo-icon icon-twitter"></i>
+            <i class="icon-twitter"></i>
         </div>
     </a>
-    <a href="https://intita.com/#">
+    <a href="#">
         <div class="btn social-btn btn-vk">
-            <i class="demo-icon icon-vk i-btn-vk"></i>
+            <i class="icon-vkontakte i-btn-vk"></i>
         </div>
     </a>
 </div>
+<!--<div class="graddd">-->
 
+<!--</div>-->
 <img src="https://intita.com/images/mainpage/10.jpg">
 <img src="https://intita.com/images/mainpage/10.jpg">
 <img src="https://intita.com/images/mainpage/10.jpg">
@@ -66,22 +78,38 @@
 <img src="https://intita.com/images/mainpage/10.jpg">
 
 
+
+
+<script>
+
+//    var min_menu = getElementById("min-menu");
+    $(window).scroll(function() {
+        if ($(window).scrollTop() < 200) {
+            $("#min-menu").hide();
+        }
+        else{
+            $("#min-menu").show();
+        }
+
+    });
+</script>
+
+<!--<script src="external_libs/jquery/jquery.min.js"></script>-->
+<script src="external_libs/bootstrap/bootstrap.min.js"></script>
 <!--endof buttons block-->
-    <!--main content-->
-    
-    
-    <!--endof main content-->
-    <!--form-->
-    
-    
-    <!--endof form-->
+<!--main content-->
+
+
+<!--endof main content-->
+<!--form-->
+
+
+<!--endof form-->
 <!--   endof content-->
 <!--   footer-->
 
 <!--   endof footer-->
 <!--scripts-->
-    <script src="external_libs/jquery/jquery.min.js"></script>
-    <script src="external_libs/bootstrap/bootstrap.min.js"></script>
 <!--end of scripts-->
 </body>
 </html>

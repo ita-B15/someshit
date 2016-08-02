@@ -7,34 +7,52 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "bc50457410acf467b8b5721240768742",
+      "uid": "559647a6f430b3aeadbecd67194451dd",
+      "css": "menu",
+      "code": 61641,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
       "css": "facebook",
-      "code": 62220,
-      "src": "entypo"
+      "code": 61594,
+      "src": "fontawesome"
     },
     {
-      "uid": "7132e1233bc16cd1b6efe7e29d3613a5",
-      "css": "linkedin",
-      "code": 62232,
-      "src": "entypo"
-    },
-    {
-      "uid": "d090355c31f497b61d676416c1fd39fb",
-      "css": "twitter",
-      "code": 62217,
-      "src": "entypo"
-    },
-    {
-      "uid": "b945f4ac2439565661e8e4878e35d379",
+      "uid": "b8d0c7d76e87b94882329a88e8e43d3d",
       "css": "gplus",
-      "code": 62223,
-      "src": "entypo"
+      "code": 61653,
+      "src": "fontawesome"
     },
     {
-      "uid": "12db1f260b5b2ccd1aa4d8942cc7f6dd",
-      "css": "vk",
-      "code": 59392,
-      "src": "zocial"
+      "uid": "e9107949dd6c9e8ab2b29ae07156e38c",
+      "css": "linkedin",
+      "code": 61665,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "627abcdb627cb1789e009c08e2678ef9",
+      "css": "twitter",
+      "code": 61593,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f3d95e13eb43f3f6b8efe1eb424a1e3b",
+      "css": "vkontakte",
+      "code": 61833,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e331ff486a299c6bdf0056426c8fac53",
+      "css": "youtube-squared",
+      "code": 61798,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "c9a7eca58474311926922ff8c2c1d256",
+      "css": "vkontakte-1",
+      "code": 62292,
+      "src": "entypo"
     }
   ]
 }

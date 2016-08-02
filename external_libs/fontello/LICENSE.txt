@@ -1,13 +1,13 @@
 Font license info
 
 
-## Zocial
+## Font Awesome
 
-   Copyright (C) 2012 by Sam Collins
+   Copyright (C) 2012 by Dave Gandy
 
-   Author:    Sam Collins
-   License:   MIT (http://opensource.org/licenses/mit-license.php)
-   Homepage:  http://zocial.smcllns.com/
+   Author:    Dave Gandy
+   License:   SIL ()
+   Homepage:  http://fortawesome.github.com/Font-Awesome/
 
 
 ## Entypo
