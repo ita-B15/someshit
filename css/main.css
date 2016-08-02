@@ -22,18 +22,18 @@
 .navbuttonStyle_N5U:hover {
     color: #4b70a3;
 }
-#enterButtonBlueBorder_N5U {
+.enterButtonBlueBorder_N5U {
     border-radius: 10px;
     border: 2px solid #4b70a3;
     padding-top: 8px;
     margin-left: calc(35vw);
 }
-#enterButtonWhiteBorder_N5U {
+.enterButtonWhiteBorder_N5U {
     border-radius: 10px;
     border: 3px solid white;
     padding: 5px 0 5px 0;
 }
-#enterButton_N5U {
+.enterButton_N5U {
     background-color: #4b70a3;
     border-radius: 7px;
     color: white;
@@ -56,19 +56,19 @@
         width: 40rem;
         margin-left: calc(50vw - 200px);
     }
-    #enterButtonBlueBorder_N5U {
+    .enterButtonBlueBorder_N5U {
         border-radius: 15px;
         border: 2px solid #4b70a3;
         padding-top: 25px;
         margin: -1px 0 0 calc(50vw - 70px);
     }
-    #enterButtonWhiteBorder_N5U {
+    .enterButtonWhiteBorder_N5U {
         border-radius: 15px;
         border: 5px solid white;
         padding: 10px 0 10px 0;
         background-color: white;
     }
-    #enterButton_N5U {
+    .enterButton_N5U {
         font-size: 3rem;
         border-radius: 10px;
     }
@@ -84,18 +84,18 @@
         width: 40rem;
         margin-left: calc(50vw - 200px);
     }
-    #enterButtonBlueBorder_N5U {
+    .enterButtonBlueBorder_N5U {
         border-radius: 15px;
         border: 2px solid #4b70a3;
         padding-top: 25px;
         margin: -23.5px 0 0 calc(50vw - 70px);
     }
-    #enterButtonWhiteBorder_N5U {
+    .enterButtonWhiteBorder_N5U {
         border-radius: 15px;
         border: 5px solid white;
         padding: 10px 0 10px 0;
     }
-    #enterButton_N5U {
+    .enterButton_N5U {
         font-size: 3rem;
         border-radius: 10px;
     }
