@@ -1,128 +1,94 @@
 /*common styles*/
+html,
+body {
+    width:100%;
+    height:100%;
+}
 
+/**{*/
+    /*border: 1px black solid;*/
+/*}*/
 /*endof common styles*/
 
 /*header styles*/
 
 /*endof header styles*/
 /*content styles*/
+.step_img{
+    margin: 0;
+    padding: 0;
+    /*border: 1px black solid;*/
+  overflow: hidden;
+  
 
+/*  float: right*/
+}
+.step_img>img{
+    width: 100%;
+    /*height: 100%;*/
+    border: 2px #3c77a7 solid;
+    /*border-radius: 5px;*/
+  object-fit: cover;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.blue_bordered{
+    font-size: medium;
+    color: dodgerblue;
+    border-bottom: 3px dodgerblue solid;
+    padding-bottom: 10px;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+.gray_big{
+    font-size: x-large;
+    margin-top: 10px;
+}
+.step_container{
+    background: white;
+    margin-top: 30px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 0.2em 0.07em #b6b2b5;
+}
+.step_head{
+    font-size: 1.9em;
+    margin: 1.7rem 0;
+}
+.step_text:nth-child(odd){
+    text-align: right;
+    
+}
+.step_text{
+    padding: 0 1 rem;
+    margin-bottom: 1.7rem;
+}
+
+#under_about{
+    margin:0 auto;
+}
+#how_to_start{
+    background-color: #f1f1f1;
+  width: 100%;
+}
 /*endof content styles*/
 /*footer styles*/
 
 /*endof footer styles*/
 /*social buttons styles*/
-.graddd{
-    height: 3000px;
-    background: white;
-    background: linear-gradient(red, black);
-}
-.social-btns{
-    position: fixed;
-    top: 10px;
-    left: 15px;
-}
-.social-btn{
-
-    vertical-align: middle;
-    display: block;
-    border-radius: 24%;
-    color: white;
-    font-size: 32px;
-    margin-bottom: 20px;
-    padding: 0;
-    padding-top: 3px;
-    height: 47px;
-    width: 47px;
-}
-.btn-menu{
-    background-color: rgba(75, 117, 164,0.7);
-    border-radius: 5%;
-    font-size: 43px;
-    padding-top: -10px;
-    position: fixed;
-    padding-bottom: 0px;
-}
-.btn-menu:hover{
-    background-color: rgba(75, 117, 164,1);
-}
-.i-btn-menu{
-    position: fixed;
-    top: 3px;
-    left: 9px;
-}
-.btn-fb{
-    font-size: 40px;
-    position: relative;
-    /*transition: width 2s, height 2s, left 3s;*/
-    padding-top: 0px;
-    /*padding-left: 5px;*/
-    background-color: rgba(59,89,152,0.6);
-    margin-top:90px
-}
-.btn-fb:hover{
-    /*padding-left: 15px;*/
-/*animation: mymove;*/
-/*left: 100px;*/
-/*width: 300px;*/
-/*height: 300px;*/
-background-color: rgba(59,89,152,1);
-}
-/*div:hover{*/
-    /*animation: mymove 4s infinite;*/
-/*}*/
-/*@keyframes mymove {*/
-    /*0% {top: 0px; width: 100px}*/
-    /*25% {top: calc(100vh - 110px);left: 0px; width: 100px}*/
-    /*50% {top: calc(100vh - 110px);left: calc(100vw - 110px);  width: 100px}*/
-    /*75% {top: 0px;left: calc(100vw - 110px); width: 100px}*/
-    /*100% { top: 0px; left: 0px; width: 100px}*/
-
-/*}*/
-.btn-gpl{
-    background-color: rgba(221,75,57,0.7);
-}
-.btn-gpl:hover{
-    background-color: rgba(221,75,57,1);
-}
-.btn-li{
-    background-color: rgba(0,119,181,0.7);
-    font-size: 38px;
-    padding-top: 0px;
-    padding-left: 1px;
-    /*padding-bottom: 20px;*/
-}
-.i-btn-li{
-    margin-bottom: 8px;
-    margin-left: -4px;
-    /*position: fixed;*/
-    /*top: 230px;*/
-    /*left: 11px;*/
-    /*padding-top: -5px;*/
-}
-.btn-li:hover{
-    background-color: rgba(0,119,181,1);
-}
-.btn-tw{
-    background-color: rgba(0, 172, 237,0.7);
-}
-.btn-tw:hover{
-    background-color: rgba(0, 172, 237,1);
-}
-.btn-vk{
-    background-color: rgba(69, 102, 142,0.7);
-    padding-top: 0px;
-}
-.btn-vk:hover{
-    background-color: rgba(69, 102, 142,1);
-}
-.btn-menu:hover, .btn-fb:hover, .btn-gpl:hover, .btn-li:hover, .btn-tw:hover, .btn-vk:hover{
-    color: white;
-}
-.i-btn-vk{
-    margin-left: -1px;
-    margin-right: 1px;
-}
 
 /*endof social buttons styles*/
 /*form styles*/
