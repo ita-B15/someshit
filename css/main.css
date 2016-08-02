@@ -1,5 +1,13 @@
 /*common styles*/
+html,
+body {
+    width:100%;
+    height:100%;
+}
 
+/**{*/
+    /*border: 1px black solid;*/
+/*}*/
 /*endof common styles*/
 
 /*header styles*/
@@ -111,10 +119,82 @@
 }
 /*endof header styles*/
 /*content styles*/
+.step_img{
+    margin: 0;
+    padding: 0;
+    /*border: 1px black solid;*/
+  overflow: hidden;
+  
 
+/*  float: right*/
+}
+.step_img>img{
+    width: 100%;
+    /*height: 100%;*/
+    border: 2px #3c77a7 solid;
+    /*border-radius: 5px;*/
+  object-fit: cover;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+<<<<<<< HEAD
+=======
+.blue_bordered{
+    font-size: medium;
+    color: dodgerblue;
+    border-bottom: 3px dodgerblue solid;
+    padding-bottom: 10px;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+.gray_big{
+    font-size: x-large;
+    margin-top: 10px;
+}
+.step_container{
+    background: white;
+    margin-top: 30px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 0.2em 0.07em #b6b2b5;
+}
+.step_head{
+    font-size: 1.9em;
+    margin: 1.7rem 0;
+}
+.step_text:nth-child(odd){
+    text-align: right;
+    
+}
+.step_text{
+    padding: 0 1 rem;
+    margin-bottom: 1.7rem;
+}
+
+#under_about{
+    margin:0 auto;
+}
+#how_to_start{
+    background-color: #f1f1f1;
+  width: 100%;
+}
 /*endof content styles*/
 /*footer styles*/
 
+>>>>>>> content
 /*endof footer styles*/
 /*social buttons styles*/
 
