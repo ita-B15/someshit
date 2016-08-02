@@ -1,7 +1,8 @@
-
-//    var min_menu = getElementById("min-menu");
+/**
+ * Created by up on 30.07.16.
+ */
 $(window).scroll(function() {
-    if ($(window).scrollTop() < 200) {
+    if ($(window).scrollTop() < 90) {
         $("#min-menu").hide();
     }
     else{
