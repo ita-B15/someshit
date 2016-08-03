@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
     <meta charset="UTF-8">
     <title>Intita first page</title>
+    <meta name="viewport" content="wigth=device-wigth,initial-scale=1,maximum-scale=1.0,user-scalable=0">
 
     <!--    styles-->
     <link rel="stylesheet" href="external_libs/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="external_libs/jquery/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="external_libs/fontello/css/fontello.css">
+
 
     <!--    end of styles-->
+
     <!--fonts-->
 
-<!--endof fonts-->
+
+
+    <!--endof fonts-->
+
 
 </head>
-<body>
 
+<body>
 <!--    header-->
 <header class="headerBORDER_N5U">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                 <a href="#"><img class="headerIMG_N5U"
-                src="imgs/Logo_bigUA.png" alt="logo"></a>
+                                 src="imgs/Logo_bigUA.png" alt="logo"></a>
             </div>
             <div class="col-lg-7 col-lg-offset-2 col-md-7
             col-md-offset-2 hidden-sm hidden-xs">
@@ -36,7 +46,7 @@
                             <a href="#" class="navbuttonStyle_N5U">Форум</a>
                             <a href="#" class="navbuttonStyle_N5U">Про нас</a>
                         </div>
-                            <span class="enterButtonBlueBorder_N5U">
+                        <span class="enterButtonBlueBorder_N5U">
                                 <span class="enterButtonWhiteBorder_N5U">
                                     <a href="#" class="enterButton_N5U">Вхід</a>
                                 </span>
@@ -61,9 +71,9 @@
                     <a href="#" class="navbuttonStyle_N5U">Форум</a>
                     <a href="#" class="navbuttonStyle_N5U">Про нас</a>
                 </div>
-                    <span class="enterButtonBlueBorder_N5U">
+                <span class="enterButtonBlueBorder_N5U">
                         <span class="enterButtonWhiteBorder_N5U"><a href="#"
-                        class="enterButton_N5U">Вхід</a></span>
+                                                                    class="enterButton_N5U">Вхід</a></span>
                     </span>
                 <div class="localisationButtons_N5U">
                     <a href="#">en</a>
@@ -74,24 +84,58 @@
         </div>
     </div>
 </header>
-
 <!--   endof header-->
+<!--   content-->
+<!--buttons block-->
+<div id="min-menu" class='btn social-btn btn-menu animated pulse' style="display: none">
+    <i class='icon-menu i-btn-menu'></i>
+</div>
+<div class="social-btns">
+    <a href="#">
+        <div class="btn social-btn btn-fb">
+            <i class="icon-facebook"></i>
+        </div>
+    </a>
+    <a href="#">
+        <div class="btn social-btn btn-gpl">
+            <i class="icon-gplus"></i>
+        </div>
+    </a>
+    <a href="#">
+        <div class="btn social-btn btn-li" >
+            <i class="icon-linkedin i-btn-li"></i>
+        </div>
+    </a>
+    <a href="#" >
+        <div class="btn social-btn btn-tw">
+            <i class="icon-twitter"></i>
+        </div>
+    </a>
+    <a href="#">
+        <div class="btn social-btn btn-vk">
+            <i class="icon-vkontakte i-btn-vk"></i>
+        </div>
+    </a>
+</div>
+<!--endof buttons block-->
+<!--main <content-->
 
-    <!--    </content-->
-  <div class="container">
-        <div class="about_us row row-centered">
-            <!--<div class="col-md-1"></div>-->
-            <div class="col-md-10 col-centered">
-                <div class="text-center row row-centered">
-                    <div class="gray_big">Про нас</div>
-                    <div class="blue_bordered col-md-5 col-centered ">Важлива інформація про навчання разом з нами</div>
-                </div>
-                <div class="row row-centered">
-                    <div class="col-md-11 col-centered" id="under_about">
-                        <div class="col-md-4">
+<!--    </content-->
+<div class="container">
+    <div class="about_us row row-centered">
+        <!--<div class="col-md-1"></div>-->
+        <div class="col-md-10 col-centered">
+            <div class="text-center row row-centered">
+                <div class="gray_big">Про нас</div>
+                <div class="blue_bordered col-md-5 col-centered ">Важлива інформація про навчання разом з нами</div>
+            </div>
+            <div class="row row-centered">
+                <div class="col-md-11 col-centered" id="under_about">
+                    <div class="col-md-4">
                         <div class="col-md-11">
                             <img src="images/image1.png" alt="what you dreaming?">
-                            <h4>Про що мрієш ти?</h4> Можливо, це свобода жити своїм життям? Самостійно керувати власним часом з можливістю заробляти, улюбленою справою і отримувати задоволення від сучасної професії?
+                            <h4>Про що мрієш ти?</h4> Можливо, це свобода жити своїм життям? Самостійно керувати власним
+                            часом з можливістю заробляти, улюбленою справою і отримувати задоволення від сучасної професії?
                             <div class="row text-left">
 
                                 <div class="col-md-11">
@@ -100,10 +144,11 @@
                             </div>
                         </div>
                     </div>
-                        <div class="col-md-4">
+                    <div class="col-md-4">
                         <div class="col-md-11">
                             <img src="images/image2.png" alt="what you dreaming?">
-                            <h4>Навчання майбутнього</h4> На відміну від традиційних закладів, ми навчаємо не задля оцінок. Ми працюємо індивідуально з кожним студентом, щоб досягти 100% засвоєння необхідних знань.
+                            <h4>Навчання майбутнього</h4> На відміну від традиційних закладів, ми навчаємо не задля оцінок.
+                            Ми працюємо індивідуально з кожним студентом, щоб досягти 100% засвоєння необхідних знань.
                             <div class="row text-left">
 
                                 <div class="col-md-11">
@@ -111,10 +156,11 @@
                             </div>
                         </div>
                     </div>
-                        <div class="col-md-4">
+                    <div class="col-md-4">
                         <div class="col-md-11">
                             <img src="images/image3.png" alt="what you dreaming?">
-                            <h4>Важливі питання</h4> Ми пропонуємо кожному нашому випускнику гарантоване отримання пропозиції працевлаштування протягом 4-6-ти місяців після успішного завершення навчання.
+                            <h4>Важливі питання</h4> Ми пропонуємо кожному нашому випускнику гарантоване отримання
+                            пропозиції працевлаштування протягом 4-6-ти місяців після успішного завершення навчання.
                             <div class="row text-left">
 
                                 <div class="col-md-11">
@@ -122,10 +168,9 @@
                             </div>
                         </div>
                     </div>
-                    </div>
                 </div>
-    </div>  </div>
-
+            </div>
+        </div>  </div>
 
     <div id="how_to_start" class="text-center row row-centered">
         <div class="gray_big">Як розпочати навчання?</div>
@@ -183,23 +228,23 @@
                 та рекомендація для стажування чи працевлаштування.</p></div>
         </div>
         </div>
-   
-   
+
+
     </div>
 </div>
     <!--endof main content-->
     <!--form-->
 
 
-    <!--endof form-->
-    <!--   endof content-->
-    <!--   footer-->
+<!--endof form-->
+<!--   endof content-->
+<!--   footer-->
 
-    <!--   endof footer-->
-    <!--scripts-->
-    <script src="external_libs/jquery/jquery.min.js"></script>
-    <script src="external_libs/bootstrap/bootstrap.min.js"></script>
-    <!--end of scripts-->
+<!--   endof footer-->
+<!--scripts-->
+<script src="external_libs/bootstrap/bootstrap.min.js"></script>
+<script src="js/menuButton.js"></script>
+<!--end of scripts-->
 </body>
 
 </html>

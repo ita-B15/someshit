@@ -124,7 +124,7 @@ body {
     padding: 0;
     /*border: 1px black solid;*/
   overflow: hidden;
-  
+
 
 /*  float: right*/
 }
@@ -146,7 +146,6 @@ body {
     /* inline-block space fix */
     margin-right:-4px;
 }
-
 
 .blue_bordered{
     font-size: medium;
@@ -176,10 +175,10 @@ body {
 }
 .step_text:nth-child(odd){
     text-align: right;
-    
+
 }
 .step_text{
-    padding: 0 1 rem;
+    padding: 0.1rem;
     margin-bottom: 1.7rem;
 }
 
@@ -195,6 +194,96 @@ body {
 
 /*endof footer styles*/
 /*social buttons styles*/
+.social-btns {
+    position: fixed;
+    top: 110px;
+    left: 15px;
+}
+@media screen and (max-width: 768px) {
+    .social-btns {
+        top: 290px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 991px){
+    .social-btns {
+        top: 240px;
+    }
+}
+.social-btn{
+    vertical-align: middle;
+    display: block;
+    border-radius: 24%;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-top: 3px;
+    height: 46px;
+    width: 46px;
+}
+.btn-menu{
+    background-color: rgba(75, 117, 164,1);
+    border-radius: 5%;
+    position: fixed;
+    top: 10px;
+    left: 15px;
+    padding: 0px;
+    color: #dfdfdf;
+}
+.i-btn-menu{
+    font-size: 40px;
+    position: inherit;
+    margin-left: -28px;
+    margin-top: -6px;
+}
+.btn-fb{
+    font-size: 40px;
+    padding-top: 0px;
+    background-color: rgba(59,89,152,0.6);
+}
+.btn-fb:hover{
+    background-color: rgba(59,89,152,1);
+}
+
+.btn-gpl{
+    background-color: rgba(221,75,57,0.7);
+}
+.btn-gpl:hover{
+    background-color: rgba(221,75,57,1);
+}
+.btn-li{
+    background-color: rgba(0,119,181,0.7);
+    font-size: 38px;
+    padding-top: 0px;
+}
+.i-btn-li{
+    position: relative;
+    left: -4px;
+    top: -4px;
+}
+.btn-li:hover{
+    background-color: rgba(0,119,181,1);
+}
+.btn-tw{
+    background-color: rgba(0, 172, 237,0.7);
+}
+.btn-tw:hover{
+    background-color: rgba(0, 172, 237,1);
+}
+.btn-vk{
+    background-color: rgba(69, 102, 142,0.7);
+    padding-top: 0px;
+}
+.btn-vk:hover{
+    background-color: rgba(69, 102, 142,1);
+}
+.btn-menu:hover, .btn-fb:hover, .btn-gpl:hover, .btn-li:hover, .btn-tw:hover, .btn-vk:hover{
+    color: white;
+}
+.i-btn-vk{
+    margin-left: -1px;
+    margin-right: 1px;
+}
 
 /*endof social buttons styles*/
 /*form styles*/
