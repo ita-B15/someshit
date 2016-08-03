@@ -178,7 +178,7 @@ body {
 
 }
 .step_text{
-    padding: 0 1 rem;
+    padding: 0.1rem;
     margin-bottom: 1.7rem;
 }
 
@@ -194,11 +194,20 @@ body {
 
 /*endof footer styles*/
 /*social buttons styles*/
-
-.social-btns{
+.social-btns {
     position: fixed;
     top: 110px;
     left: 15px;
+}
+@media screen and (max-width: 768px) {
+    .social-btns {
+        top: 290px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 991px){
+    .social-btns {
+        top: 240px;
+    }
 }
 .social-btn{
     vertical-align: middle;
@@ -213,18 +222,16 @@ body {
     width: 46px;
 }
 .btn-menu{
-
     background-color: rgba(75, 117, 164,1);
     border-radius: 5%;
-    font-size: 40px;
     position: fixed;
     top: 10px;
     left: 15px;
     padding: 0px;
     color: #dfdfdf;
-
 }
 .i-btn-menu{
+    font-size: 40px;
     position: inherit;
     margin-left: -28px;
     margin-top: -6px;
@@ -248,11 +255,11 @@ body {
     background-color: rgba(0,119,181,0.7);
     font-size: 38px;
     padding-top: 0px;
-    padding-left: 1px;
 }
 .i-btn-li{
-    margin-bottom: 8px;
-    margin-left: -4px;
+    position: relative;
+    left: -4px;
+    top: -4px;
 }
 .btn-li:hover{
     background-color: rgba(0,119,181,1);
