@@ -7,26 +7,27 @@
     <link rel="stylesheet" href="external_libs/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animate.css">
-    <script src="external_libs/jquery/jquery.min.js"></script>
     <link rel="stylesheet" href="external_libs/fontello/css/fontello.css">
+    <script src="external_libs/jquery/jquery.min.js"></script>
 
     <!--    end of styles-->
 
     <!--fonts-->
+    <link rel="stylesheet" href="css/fonts_content.css">
 
-    <!--endof fonts-->
-
+    <!--end of fonts-->
 
 </head>
 
 <body>
 <!--    header-->
+
 <header class="headerBORDER_N5U">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                 <a href="#"><img class="headerIMG_N5U"
-                                 src="imgs/Logo_bigUA.png" alt="logo"></a>
+                src="imgs/Logo_bigUA.png" alt="logo"></a>
             </div>
             <div class="col-lg-7 col-lg-offset-2 col-md-7
             col-md-offset-2 hidden-sm hidden-xs">
@@ -39,7 +40,7 @@
                             <a href="#" class="navbuttonStyle_N5U">Форум</a>
                             <a href="#" class="navbuttonStyle_N5U">Про нас</a>
                         </div>
-                        <span class="enterButtonBlueBorder_N5U">
+                            <span class="enterButtonBlueBorder_N5U">
                                 <span class="enterButtonWhiteBorder_N5U">
                                     <a href="#" class="enterButton_N5U">Вхід</a>
                                 </span>
@@ -56,6 +57,11 @@
     </div>
     <div class="container-fluid ">
         <div class="row">
+            <div class="hidden-lg hidden-md localisationButtons_N5U">
+                <a href="#">en</a>
+                <a href="#">ua</a>
+                <a href="#">ru</a>
+            </div>
             <div class="hidden-lg hidden-md col-sm-12 col-xs-12">
                 <div class="navbuttons_N5U">
                     <a href="#" class="navbuttonStyle_N5U">Курси</a>
@@ -64,26 +70,47 @@
                     <a href="#" class="navbuttonStyle_N5U">Форум</a>
                     <a href="#" class="navbuttonStyle_N5U">Про нас</a>
                 </div>
-                <span class="enterButtonBlueBorder_N5U">
+
+                    <span class="enterButtonBlueBorder_N5U">
                         <span class="enterButtonWhiteBorder_N5U"><a href="#"
-                                                                    class="enterButton_N5U">Вхід</a></span>
+                        class="enterButton_N5U">Вхід</a></span>
                     </span>
-                <div class="localisationButtons_N5U">
-                    <a href="#">en</a>
-                    <a href="#">ua</a>
-                    <a href="#">ru</a>
-                </div>
             </div>
         </div>
     </div>
 </header>
+
 <!--   endof header-->
 <!--   content-->
 <!--buttons block-->
-<div id="min-menu" class='btn social-btn btn-menu animated pulse' style="display: none">
-    <i class='icon-menu i-btn-menu'></i>
+<!--<div id="min-menu" class='btn social-btn btn-menu animated pulse dropdown-menu'>-->
+    <!---->
+<!--</div>-->
+
+<!--<div class="min_menu"></div>-->
+<div class="btn-group min_menu">
+    <button id="min-menu" type="button" class="btn social-btn btn-menu animated pulse dropdown-toggle"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class='icon-menu .btn-menu i-btn-menu'></i>
+    </button>
+    <ul class="dropdown-menu  dropdown_menu_ul">
+        <a href="#"><img class="img_ITA" src="imgs/Logo_bigUA.png" alt="logo"></a>
+        <li role="separator" class="divider"></li>
+        <div class="localisationButtons_min_menu">
+            <a href="#">en</a>
+            <a href="#">ua</a>
+            <a href="#">ru</a>
+        </div>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Курси</a></li>
+        <li><a href="#">Викладачі</a></li>
+        <li><a href="#">Випускники</a></li>
+        <li><a href="#">Форум</a></li>
+        <li><a href="#">Про нас</a></li>
+    </ul>
 </div>
-<div class="social-btns">
+
+<div class="social-btns hidden-sm hidden-xs">
     <a href="#">
         <div class="btn social-btn btn-fb">
             <i class="icon-facebook"></i>
@@ -114,63 +141,70 @@
 <!--main <content-->
 
 <!--    </content-->
-<div class="container">
+    <!--endof main content-->
+    <!--buttons block-->
+
+
+    <!--end of buttons block-->
+    <!--main <content-->
+
+    <!--    </content-->
+
     <div class="about_us row row-centered">
-        <!--<div class="col-md-1"></div>-->
-        <div class="col-md-10 col-centered">
-            <div class="text-center row row-centered">
-                <div class="gray_big">Про нас</div>
-                <div class="blue_bordered col-md-5 col-centered ">Важлива інформація про навчання разом з нами</div>
-            </div>
-            <div class="row row-centered">
-                <div class="col-md-11 col-centered" id="under_about">
-                    <div class="col-md-4">
-                        <div class="col-md-11">
+            <div class="col-md-9 col-sm-12 col-centered about-container">
+                <div class="text-center row row-centered">
+                    <div class="gray_big">Про нас</div>
+                    <div class="blue_bordered col-md-11 col-xs-12 col-centered ">Важлива інформація про навчання разом з нами</div>
+                </div>
+                <div class="row row-centered">
+                    <div class="col-md-12 col-centered" id="under_about">
+                        <div class="col-md-4">
+
                             <img src="images/image1.png" alt="what you dreaming?">
-                            <h4>Про що мрієш ти?</h4> Можливо, це свобода жити своїм життям? Самостійно керувати власним
-                            часом з можливістю заробляти, улюбленою справою і отримувати задоволення від сучасної професії?
+                            <div class="about-head">Про що мрієш ти?</div>
+                             Можливо, це свобода жити своїм життям? Самостійно керувати власним часом з можливістю заробляти, улюбленою справою і отримувати задоволення від сучасної професії?
                             <div class="row text-left">
 
-                                <div class="col-md-11">
+                                <div class="col-md-12 container-fluid">
                                     <a href="">детальніше ...</a>
                                 </div>
                             </div>
-                        </div>
+
                     </div>
-                    <div class="col-md-4">
-                        <div class="col-md-11">
+                        <div class="col-md-4">
                             <img src="images/image2.png" alt="what you dreaming?">
-                            <h4>Навчання майбутнього</h4> На відміну від традиційних закладів, ми навчаємо не задля оцінок.
-                            Ми працюємо індивідуально з кожним студентом, щоб досягти 100% засвоєння необхідних знань.
+                            <div class="about-head">Навчання майбутнього</div>
+                            На відміну від традиційних закладів, ми навчаємо не задля оцінок. Ми працюємо індивідуально з кожним студентом, щоб досягти 100% засвоєння необхідних знань.
                             <div class="row text-left">
 
-                                <div class="col-md-11">
+                                <div class="col-md-12">
                                     <a href="">детальніше ...</a></div>
                             </div>
-                        </div>
+
                     </div>
-                    <div class="col-md-4">
-                        <div class="col-md-11">
+                        <div class="col-md-4">
                             <img src="images/image3.png" alt="what you dreaming?">
-                            <h4>Важливі питання</h4> Ми пропонуємо кожному нашому випускнику гарантоване отримання
-                            пропозиції працевлаштування протягом 4-6-ти місяців після успішного завершення навчання.
+                            <div class="about-head">Важливі питання</div>
+                             Ми пропонуємо кожному нашому випускнику гарантоване отримання пропозиції працевлаштування протягом 4-6-ти місяців після успішного завершення навчання.
                             <div class="row text-left">
 
-                                <div class="col-md-11">
+                                <div class="col-md-12">
                                     <a href="">детальніше ...</a></div>
                             </div>
-                        </div>
+
+                    </div>
                     </div>
                 </div>
-            </div>
-        </div>  </div>
+    </div>  </div>
 
     <div id="how_to_start" class="text-center row row-centered">
-        <div class="gray_big">Як розпочати навчання?</div>
-        <div class="blue_bordered col-md-3 col-centered">П’ять кроків до здійснення твоїх мрій</div>
-        <div class="row">
-        <div class="col-md-9 col-sm-11 col col-centered step_container">
-            <div class="col-md-4  step_img hidden-xs"><img src="images/step1.jpg" alt=""></div>
+      	<div class="col-lg-9 col-md-10 col-xs-12 col-centered steps-container">
+
+        <div class="gray_big col-md-7 col-centered">Як розпочати навчання?</div>
+        <div class="blue_bordered col-md-7 col-centered">П’ять кроків до здійснення твоїх мрій</div>
+        <div class="row row-centered">
+        <div class="col-md-12 col col-centered step_container">
+            <div class="col-md-4 step_img hidden-sm"><img src="images/step1.jpg" alt=""></div>
             <div class="col-md-8 step_text">
                 <p class="step_head">Реєстрація на сайті</p>
                 <p>Щоб отримати доступ до курсів та пройти безкоштовні модулі і
@@ -178,7 +212,7 @@
                 якість та зручність нашого продукту, який стане для тебе надійним
                   партнером і порадником в професійній самореалізації.</p></div>
         </div>
-        <div class="col-md-9 col-sm-11 col-centered step_container">
+        <div class="col-md-12 col-centered step_container">
             <div class="col-md-8 step_text">
                 <div class="step_head">Вибір курсу чи модуля</div>
                 Щоб стати спеціалістом певного напрямку та рівня (отримати
@@ -188,7 +222,7 @@
                 для проходження.</div>
             <div class="col-md-4 step_img hidden-sm"><img src="images/step2.jpg" alt="" class="pull-right"></div>
         </div>
-        <div class="col-md-9 col-sm-11 col-centered step_container">
+        <div class="col-md-12 col-centered step_container">
             <div class="col-md-4 step_img hidden-sm"><img src="images/step3.jpg" alt=""></div>
             <div class="col-md-8 step_text">
                 <div class="step_head">Проплата за навчання</div>
@@ -198,7 +232,7 @@
                 (схему оплати курсу чи модуля можна змінювати, також можлива
                 помісячна оплата в кредит).</div>
         </div>
-        <div class="col-md-9 col-sm-11 col-centered step_container">
+        <div class="col-md-12 col-centered step_container">
             <div class="col-md-8 step_text">
                 <div class="step_head">Освоєння матеріалу</div>
                 Вивчення матеріалу можливе шляхом читання тексту чи/і перегляду
@@ -209,7 +243,7 @@
                 консультацію викладача чи консультацію онлайн.</div>
             <div class="col-md-4 step_img hidden-sm"><img class="pull-right" src="images/step4.jpg" alt=""></div>
         </div>
-        <div class="col-md-9 col-sm-11 col-centered step_container">
+        <div class="col-md-12 col-centered step_container">
             <div class="col-md-4  step_img hidden-sm"><img src="images/step5.jpg" alt=""></div>
             <div class="col-md-8 step_text">
                 <div class="step_head">Завершення курсу</div>
@@ -223,9 +257,11 @@
         </div>
 
 
+
+    	</div>
     </div>
-</div>
-    <!--endof main content-->
+
+    <!--end of main content-->
     <!--form-->
 
 
@@ -238,6 +274,7 @@
 <script src="external_libs/bootstrap/bootstrap.min.js"></script>
 <script src="js/menuButton.js"></script>
 <!--end of scripts-->
+
 </body>
 
 </html>
