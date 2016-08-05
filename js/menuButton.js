@@ -57,7 +57,7 @@ $(document).ready(function () {
     scrollTop.click(function () {
         rocket.show();
         rocket.animate({bottom: -win_height + 650}, 0);
-        rocket.animate({bottom: win_height}, 3000);
+        rocket.animate({bottom: win_height + 950}, 3500);
         return false;
     });
 

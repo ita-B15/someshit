@@ -374,18 +374,6 @@ body {
     z-index: 50;
 }
 
-@media screen and (max-width: 768px) {
-    .social-btns {
-        top: 290px;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 991px) {
-    .social-btns {
-        top: 240px;
-    }
-}
-
 .social-btn-V {
     vertical-align: middle;
     display: block;
@@ -482,6 +470,29 @@ body {
     margin-right: 1px;
 }
 
+@media screen and (max-width: 991px) {
+    .dropdown_menu_ul {
+        width: 100%;
+        font-size: 80px;
+        padding-left: 20%;
+    }
+
+    .img_ITA {
+        display: none;
+    }
+
+    .btn-menu {
+        border-radius: 5%;
+        position: fixed;
+        height: 150px;
+        width: 150px;
+    }
+
+    .i-btn-menu {
+        font-size: 115px;
+    }
+}
+
 /*endof social buttons styles*/
 /*form styles*/
 
@@ -528,4 +539,11 @@ body {
     left: calc(50vw - 272px);
     z-index: 102;
     display: none;
+}
+@media screen and (max-width: 991px) {
+    .scrollToTop-V {
+        width: 200px;
+        height: 200px;
+        background-size: 200px;
+    }
 }
