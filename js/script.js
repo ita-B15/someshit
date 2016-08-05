@@ -8,7 +8,7 @@ $(document).ready(function ($) {
   });
 
   $(window).load(function () {
-    $('#slider img').liCover({
+    $("#slider img").liCover({
       parent: $("#slider"),
       position: 'absolute',
       veticalAlign: 'middle',

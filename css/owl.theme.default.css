@@ -24,7 +24,7 @@
   height: 28px;
   display: inline-block;
   cursor: pointer;
-  background: url('../images/arrs.png') no-repeat -10px -10px;
+  /*background: url('../images/arrs.png') no-repeat -10px -10px;*/
 }
 
 .owl-theme .owl-controls .owl-nav .owl-prev {

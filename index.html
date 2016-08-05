@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="uk">
-
 <head>
     <meta charset="UTF-8">
     <title>Intita first page</title>
     <!--    styles-->
     <link rel="stylesheet" href="external_libs/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="external_libs/fontello/css/fontello.css">
-    <script src="external_libs/jquery/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/Carousel/liCover.css">
-    <!--<link rel="stylesheet" href="external_libs/bootstrap/bootstrap.min.css">-->
-    <link rel="stylesheet" href="css/Carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/Carousel/owl.theme.default.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/animate-V.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/liCover.css">
 
     <!--    end of styles-->
 
+    <!--scripts-->
+    <script src="external_libs/jquery/jquery.min.js"></script>
+    <script src="js/menuButton.js"></script>
+    <script src="external_libs/bootstrap/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.liCover.js"></script>
+    <script src="js/script.js"></script>
+
+    <!--end of scripts-->
+
     <!--fonts-->
     <link rel="stylesheet" href="css/fonts_content.css">
+    <link rel="stylesheet" href="fonts/content_fontello/fontello.css">
 
     <!--end of fonts-->
-
 </head>
 
 <body>
 <!--    header-->
-
 <header class="headerBORDER_N5U">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                 <a href="#"><img class="headerIMG_N5U"
-                src="imgs/Logo_bigUA.png" alt="logo"></a>
+                                 src="imgs/Logo_bigUA.png" alt="logo"></a>
             </div>
             <div class="col-lg-7 col-lg-offset-2 col-md-7
             col-md-offset-2 hidden-sm hidden-xs">
@@ -45,7 +52,7 @@
                             <a href="#" class="navbuttonStyle_N5U">Форум</a>
                             <a href="#" class="navbuttonStyle_N5U">Про нас</a>
                         </div>
-                            <span class="enterButtonBlueBorder_N5U">
+                        <span class="enterButtonBlueBorder_N5U">
                                 <span class="enterButtonWhiteBorder_N5U">
                                     <a href="#" class="enterButton_N5U">Вхід</a>
                                 </span>
@@ -76,20 +83,20 @@
                     <a href="#" class="navbuttonStyle_N5U">Про нас</a>
                 </div>
 
-                    <span class="enterButtonBlueBorder_N5U">
+                <span class="enterButtonBlueBorder_N5U">
                         <span class="enterButtonWhiteBorder_N5U"><a href="#"
-                        class="enterButton_N5U">Вхід</a></span>
+                                                                    class="enterButton_N5U">Вхід</a></span>
                     </span>
             </div>
         </div>
     </div>
 </header>
-
 <!--   endof header-->
+
 <!--   content-->
 <!--buttons block-->
-<div class="btn-group min_menu">
-    <button type="button" class="btn social-btn-all btn-menu animated pulse dropdown-toggle"
+<div class="btn-group min_menu-V">
+    <button type="button" class="btn social-btn-V btn-menu animated pulse dropdown-toggle"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <i class='icon-menu i-btn-menu'></i>
     </button>
@@ -98,9 +105,9 @@
         <li role="separator" class="divider"></li>
         <li>
             <div class="localisationButtons_min_menu">
-            <a href="#">en</a>
-            <a href="#">ua</a>
-            <a href="#">ru</a>
+                <a href="#">en</a>
+                <a href="#">ua</a>
+                <a href="#">ru</a>
             </div>
         </li>
         <li role="separator" class="divider"></li>
@@ -110,41 +117,43 @@
         <li><a href="#">Форум</a></li>
         <li><a href="#">Про нас</a></li>
         <li><a href="#">Мій кабінет</a></li>
-        <li><div class="enterButton_min_div">
-            <a href="#" class="enterButton_min_a">Вхід</a>
-        </div></li>
+        <li>
+            <div class="enterButton_min_div">
+                <a href="#" class="enterButton_min_a">Вхід</a>
+            </div>
+        </li>
     </ul>
 </div>
-
-<div class="social-btns-all hidden-sm hidden-xs">
+<div class="social-btns hidden-sm hidden-xs">
     <a href="#">
-        <div class="btn social-btn-all btn-fb">
+        <div class="btn social-btn-V btn-fb">
             <i class="icon-facebook"></i>
         </div>
     </a>
     <a href="#">
-        <div class="btn social-btn-all btn-gpl">
+        <div class="btn social-btn-V btn-gpl">
             <i class="icon-gplus"></i>
         </div>
     </a>
     <a href="#">
-        <div class="btn social-btn-all btn-li" >
+        <div class="btn social-btn-V btn-li">
             <i class="icon-linkedin i-btn-li"></i>
         </div>
     </a>
-    <a href="#" >
-        <div class="btn social-btn-all btn-tw">
+    <a href="#">
+        <div class="btn social-btn-V btn-tw">
             <i class="icon-twitter"></i>
         </div>
     </a>
     <a href="#">
-        <div class="btn social-btn-all btn-vk">
+        <div class="btn social-btn-V btn-vk">
             <i class="icon-vkontakte i-btn-vk"></i>
         </div>
     </a>
 </div>
 <!--endof buttons block-->
-<!--main <content-->
+
+<!--    </content-->
 <!--    Carusel-->
 
 <!--   Фіксовані елементи-->
@@ -160,7 +169,7 @@
     <div class="slider_scroll">
         <div class="scroll">
             <img src="images/Carusel/line.png" alt="line">
-            <div class="">
+            <div class="button">
                 <a class="slider_button" href="#">Почати /></a>
             </div>
         </div>
@@ -213,140 +222,168 @@
 </div>
 
 <!--    End of Carusel-->
+<!--main <content-->
 
-
-
-    <!--    </content-->
-
-    <div class="about_us row row-centered">
-            <div class="col-md-9 col-sm-12 col-centered about-container">
-                <div class="text-center row row-centered">
-                    <div class="gray_big">Про нас</div>
-                    <div class="blue_bordered col-md-11 col-xs-12 col-centered ">Важлива інформація про навчання разом з нами</div>
-                </div>
-                <div class="row row-centered">
-                    <div class="col-md-12 col-centered" id="under_about">
-                        <div class="col-md-4">
-
-                            <img src="images/image1.png" alt="what you dreaming?">
-                            <div class="about-head">Про що мрієш ти?</div>
-                             Можливо, це свобода жити своїм життям? Самостійно керувати власним часом з можливістю заробляти, улюбленою справою і отримувати задоволення від сучасної професії?
-                            <div class="row text-left">
-
-                                <div class="col-md-12 container-fluid">
-                                    <a href="">детальніше ...</a>
-                                </div>
-                            </div>
-
-                    </div>
-                        <div class="col-md-4">
-                            <img src="images/image2.png" alt="what you dreaming?">
-                            <div class="about-head">Навчання майбутнього</div>
-                            На відміну від традиційних закладів, ми навчаємо не задля оцінок. Ми працюємо індивідуально з кожним студентом, щоб досягти 100% засвоєння необхідних знань.
-                            <div class="row text-left">
-
-                                <div class="col-md-12">
-                                    <a href="">детальніше ...</a></div>
-                            </div>
-
-                    </div>
-                        <div class="col-md-4">
-                            <img src="images/image3.png" alt="what you dreaming?">
-                            <div class="about-head">Важливі питання</div>
-                             Ми пропонуємо кожному нашому випускнику гарантоване отримання пропозиції працевлаштування протягом 4-6-ти місяців після успішного завершення навчання.
-                            <div class="row text-left">
-
-                                <div class="col-md-12">
-                                    <a href="">детальніше ...</a></div>
-                            </div>
-
-                    </div>
-                    </div>
-                </div>
-    </div>  </div>
-
-    <div id="how_to_start" class="text-center row row-centered">
-      	<div class="col-lg-9 col-md-10 col-xs-12 col-centered steps-container">
-
-        <div class="gray_big col-md-7 col-centered">Як розпочати навчання?</div>
-        <div class="blue_bordered col-md-7 col-centered">П’ять кроків до здійснення твоїх мрій</div>
+<div class="about_us row row-centered">
+    <div class="col-lg-9 col-md-10 col-sm-9 col-xs-12 col-centered about-container">
         <div class="row row-centered">
-        <div class="col-md-12 col col-centered step_container">
-            <div class="col-md-4 step_img hidden-sm"><img src="images/step1.jpg" alt=""></div>
-            <div class="col-md-8 step_text">
-                <p class="step_head">Реєстрація на сайті</p>
-                <p>Щоб отримати доступ до курсів та пройти безкоштовні модулі і
-                заняття зареєструйся на сайті. Реєстрація дозволить тобі оцінити
-                якість та зручність нашого продукту, який стане для тебе надійним
-                  партнером і порадником в професійній самореалізації.</p></div>
+            <div class="gray_big">Про нас</div>
+            <div class="blue_bordered col-xs-12 col-centered ">
+                Важлива інформація про навчання разом з нами
+            </div>
         </div>
-        <div class="col-md-12 col-centered step_container">
-            <div class="col-md-8 step_text">
-                <div class="step_head">Вибір курсу чи модуля</div>
-                Щоб стати спеціалістом певного напрямку та рівня (отримати
-                професійну спеціалізацію), вибери для проходження відповідний
-                курс. Якщо Тебе цікавить виключно поглиблення знань в певному
-                напрямку інформаційних технологій, то вибери відповідний модуль
-                для проходження.</div>
-            <div class="col-md-4 step_img hidden-sm"><img src="images/step2.jpg" alt="" class="pull-right"></div>
-        </div>
-        <div class="col-md-12 col-centered step_container">
-            <div class="col-md-4 step_img hidden-sm"><img src="images/step3.jpg" alt=""></div>
-            <div class="col-md-8 step_text">
-                <div class="step_head">Проплата за навчання</div>
-                Щоб розпочати проходження курсу чи модуля вибери схему оплати
-                (вся сума за курс, оплата модулів, оплата потриместрово,
-                помісячно тощо) та здійсни оплату зручним Тобі способом
-                (схему оплати курсу чи модуля можна змінювати, також можлива
-                помісячна оплата в кредит).</div>
-        </div>
-        <div class="col-md-12 col-centered step_container">
-            <div class="col-md-8 step_text">
-                <div class="step_head">Освоєння матеріалу</div>
-                Вивчення матеріалу можливе шляхом читання тексту чи/і перегляду
-                відео для кожного заняття. Під час проходження заняття виконуй
-                Проміжні тестові завдання. По завершенню кожного заняття виконуй
-                Підсумкове тестове завдання. Кожен модуль завершується
-                Індивідуальним проектом чи Екзаменом. Можна отримати індивідуальну
-                консультацію викладача чи консультацію онлайн.</div>
-            <div class="col-md-4 step_img hidden-sm"><img class="pull-right" src="images/step4.jpg" alt=""></div>
-        </div>
-        <div class="col-md-12 col-centered step_container">
-            <div class="col-md-4  step_img hidden-sm"><img src="images/step5.jpg" alt=""></div>
-            <div class="col-md-8 step_text">
-                <div class="step_head">Завершення курсу</div>
-               <p> Підсумком курсу є Командний дипломний проект, який виконується
-                разом з іншими студентами (склад команди формуєш самостійно чи
-                рекомендує тренер, який затверджує тему і технічне завдання проекту).
-                Здача проекту передбачає передзахист та захист в он-лайн режимі із
-                представленням технічної документації. Після захисту видається диплом
-                та рекомендація для стажування чи працевлаштування.</p></div>
-        </div>
-        </div>
+        <div class="row row-centered">
+            <div class="col-md-12 col-centered" id="under_about">
+                <div class="col-md-4 about-box">
+
+                    <img src="images/image1.png" alt="what you dreaming?">
+                    <div class="about-head">Про що мрієш ти?</div>
+                    <p>Можливо, це свобода жити своїм життям? Самостійно керувати власним часом з можливістю заробляти,
+                        улюбленою справою і отримувати задоволення від сучасної професії?</p>
 
 
+                    <div class="col-md-12 hidden-lg hidden-md about-details">
+                        <a href="#">детальніше ...</a>
+                    </div>
 
-    	</div>
+                </div>
+                <div class="col-md-4 about-box">
+                    <img src="images/image2.png" alt="knowledge of future">
+                    <div class="about-head">Навчання майбутнього</div>
+                    <p>На відміну від традиційних закладів, ми навчаємо не задля оцінок. Ми працюємо індивідуально з
+                        кожним студентом, щоб досягти 100% засвоєння необхідних знань.</p>
+
+
+                    <div class="col-md-12 hidden-lg hidden-md about-details">
+                        <a href="#">детальніше ...</a></div>
+
+
+                </div>
+                <div class="col-md-4 about-box">
+                    <img src="images/image3.png" alt="important questions">
+                    <div class="about-head">Важливі питання</div>
+                    <p>Ми пропонуємо кожному нашому випускнику гарантоване отримання пропозиції працевлаштування
+                        протягом 4-6-ти місяців після успішного завершення навчання.</p>
+
+                    <div class="col-md-12 hidden-lg hidden-md about-details">
+                        <a href="#">детальніше ...</a></div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row-centered">
+            <div class="col-md-12 text-left hidden-sm hidden-xs about-details">
+                <div class="col-md-4"><a href="#">детальніше ...</a></div>
+                <div class="col-md-4"><a href="#">детальніше ...</a></div>
+                <div class="col-md-4"><a href="#">детальніше ...</a></div>
+            </div>
+        </div>
     </div>
+</div>
 
-    <!--end of main content-->
-    <!--form-->
+<div id="how_to_start" class="text-center row row-centered">
+    <div class="col-lg-9 col-md-10 col-sm-9 col-xs-12 col-centered steps-container">
+        <div class="row">
+            <div class="gray_big">Як розпочати навчання?</div>
+            <div class="blue_bordered">П’ять кроків до здійснення твоїх мрій</div>
+        </div>
+        <div class="row row-centered">
+            <div class="col-md-12 col col-centered step_container">
+
+                <div class="col-md-4 step_img hidden-sm"><img src="images/step1.jpg" alt=""></div>
+                <div class="col-md-8 step_text">
+                    <div class="step_head">Реєстрація на сайті</div>
+                    <p>Щоб отримати доступ до курсів та пройти безкоштовні модулі і заняття зареєструйся на сайті.
+                        Реєстрація дозволить тобі оцінити якість та зручність нашого продукту, який стане для тебе
+                        надійним партнером і порадником в професійній самореалізації.</p>
+                </div>
+                <div class="icon-container hidden-sm hidden-xs">
+                    <div class="icon icon-comment">
+                        <div class="icon-inner">1</div>
+                    </div>
+                </div>
+                <!--                    <div class="icon icon-comment"></div>-->
+            </div>
+            <div class="col-md-12 col-centered step_container">
+                <div class="col-md-8 step_text">
+                    <div class="step_head">Вибір курсу чи модуля</div>
+                    <p>Щоб стати спеціалістом певного напрямку та рівня (отримати професійну спеціалізацію), вибери для
+                        проходження відповідний курс. Якщо Тебе цікавить виключно поглиблення знань в певному напрямку
+                        інформаційних технологій, то вибери відповідний модуль для проходження.</p></div>
+                <div class="col-md-4 step_img hidden-sm"><img src="images/step2.jpg" alt="" class="pull-right"></div>
+                <div class="icon-container hidden-sm hidden-xs">
+                    <div class="icon icon-comment">
+                        <div class="icon-inner">2</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-centered step_container">
+                <div class="col-md-4 step_img hidden-sm"><img src="images/step3.jpg" alt=""></div>
+                <div class="col-md-8 step_text">
+                    <div class="step_head">Проплата за навчання</div>
+                    <p> Щоб розпочати проходження курсу чи модуля вибери схему оплати (вся сума за курс, оплата модулів,
+                        оплата потриместрово, помісячно тощо) та здійсни оплату зручним Тобі способом (схему оплати
+                        курсу чи модуля можна змінювати, також можлива помісячна оплата в кредит).</p></div>
+                <div class="icon-container hidden-sm hidden-xs">
+                    <div class="icon icon-comment">
+                        <div class="icon-inner">3</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-centered step_container">
+                <div class="col-md-8 step_text">
+                    <div class="step_head">Освоєння матеріалу</div>
+                    <p> Вивчення матеріалу можливе шляхом читання тексту чи/і перегляду відео для кожного заняття. Під
+                        час проходження заняття виконуй Проміжні тестові завдання. По завершенню кожного заняття виконуй
+                        Підсумкове тестове завдання. Кожен модуль завершується Індивідуальним проектом чи Екзаменом.
+                        Можна отримати індивідуальну консультацію викладача чи консультацію онлайн.</p></div>
+                <div class="col-md-4 step_img hidden-sm"><img class="pull-right" src="images/step4.jpg" alt=""></div>
+                <div class="icon-container hidden-sm hidden-xs">
+                    <div class="icon icon-comment">
+                        <div class="icon-inner">4</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-centered step_container">
+                <div class="col-md-4  step_img hidden-sm"><img src="images/step5.jpg" alt=""></div>
+                <div class="col-md-8 step_text">
+                    <div class="step_head">Завершення курсу</div>
+                    <p> Підсумком курсу є Командний дипломний проект, який виконується разом з іншими студентами (склад
+                        команди формуєш самостійно чи рекомендує тренер, який затверджує тему і технічне завдання
+                        проекту). Здача проекту передбачає передзахист та захист в он-лайн режимі із представленням
+                        технічної документації. Після захисту видається диплом та рекомендація для стажування чи
+                        працевлаштування.</p>
+                </div>
+                <div class="icon-container hidden-sm hidden-xs">
+                    <div class="icon icon-comment">
+                        <div class="icon-inner">5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-<!--endof form-->
-<!--   endof content-->
+    </div>
+</div>
+
+<!--end of main content-->
+<!--form-->
+
+
+<!--end of form-->
+<!--   end of content-->
 <!--   footer-->
 
 <!--   endof footer-->
-<!--scripts-->
-<script src="external_libs/bootstrap/bootstrap.min.js"></script>
-<script src="js/menuButton.js"></script>
-<!--<script src="js/jquery-1.10.2.min.js"></script>-->
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.liCover.js"></script>
-<script src="js/script.js"></script>
-
-<!--end of scripts-->
+<!--Scroll To Top-->
+<a href="#" class="scrollToTop-V"></a>
+<div class="rocket-station">
+    <div class="rocket"></div>
+    <div class="exhaust"></div>
+</div>
 
 </body>
+
 </html>
+

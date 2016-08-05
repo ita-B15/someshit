@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="comment-inv-alt2" unicode="&#xe800;" d="M409 797q162 0 276-114t114-276-114-277-276-114q-42 0-92 12l-187-125 1 229q-113 115-113 275 0 162 115 276t276 114z" horiz-adv-x="817" />
+
+<glyph glyph-name="stop" unicode="&#xe801;" d="M535 729l223-222 0-314-223-222-314 0-221 222 0 314 221 222 314 0z m189-522l0 286-203 202-286 0-201-202 0-286 201-202 286 0z m-470 446l250 0 177-178 0-251-177-176-250 0-178 176 0 251z" horiz-adv-x="758" />
+
+<glyph glyph-name="certificate" unicode="&#xe802;" d="M0 219l94 139-86 146 154 67 6 168 166-28 96 139 125-113 156 64 43-162 166-29-51-160 123-116-129-107 43-164-168-20-52-160-153 74-131-107-88 145-167-20 3 170z" horiz-adv-x="992" />
+
+<glyph glyph-name="db-shape" unicode="&#xf600;" d="M450 800q276 0 363-88t87-362q0-276-87-363t-363-87q-274 0-362 87t-88 363q0 274 88 362t362 88z" horiz-adv-x="900" />
+</font>
+</defs>
+</svg>

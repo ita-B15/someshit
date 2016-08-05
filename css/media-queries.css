@@ -1,0 +1,12 @@
+@media only screen and (max-width:991px) {
+
+	.about-box{
+		text-align: center;
+	}
+	.step_container{
+		padding: 1rem;
+	}
+	.step_container p:last-child{
+		padding-bottom: 1rem;
+	}
+}
