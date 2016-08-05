@@ -228,7 +228,7 @@ body {
     position: fixed;
     left: 15px;
     top: 10px;
-    padding: 0px;
+    padding: 0;
     z-index: 50;
 }
 .dropdown_menu_ul{
@@ -237,34 +237,53 @@ body {
     left: 2px;
     z-index: -1;
     width: 250px;
-    padding-left: 70px;
+    padding-left: 65px;
     font-size: 18px;
 }
 .img_ITA{
     width: 120px;
-    margin-left: 20px;
 }
 .localisationButtons_min_menu{
     margin-left: 40px;
-
 }
-.social-btns {
+.divider_li{
+    background-color: #4b70a3;
+}
+.enterButton_min_div{
+    margin-top: 20px;
+    padding: 15px 40px 10px 40px;
+    width: 90%;
+    border-top: 2px solid #4b70a3;
+}
+.enterButton_min_a{
+    border-top: 2px;
+    background-color: #4b70a3;
+    border-radius: 7px;
+    color: white;
+    padding:  5px 15px 5px 15px;
+}
+.enterButton_min_a:hover{
+    background-color: #253750;
+    color: white;
+    text-decoration: none!important;
+}
+.social-btns-all {
     position: fixed;
     top: 110px;
     left: 15px;
     z-index: 50;
 }
 @media screen and (max-width: 768px) {
-    .social-btns {
+    .social-btns-all {
     top: 290px;
 }
 }
 @media screen and (min-width: 769px) and (max-width: 991px){
-    .social-btns {
+    .social-btns-all {
     top: 240px;
 }
 }
-.social-btn{
+.social-btn-all{
     vertical-align: middle;
     display: block;
     border-radius: 24%;
@@ -282,37 +301,40 @@ body {
     position: fixed;
     height: 46px;
     width: 46px;
-    padding: 0px;
+    padding: 0;
     color: #dfdfdf;
     display: none;
     z-index: 48;
+    margin: 0;
 }
 .i-btn-menu{
     color: lightgrey;
     font-size: 40px;
     position: relative;
-    top: -5px;
+    top: -6px;
     left: -6px;
+    margin: 0;
 }
+
 .btn-fb{
     font-size: 40px;
-    padding-top: 0px;
-    background-color: rgba(59,89,152,0.6);
+    padding-top: 0;
+    background-color: rgba(59,89,152,0.8);
 }
 .btn-fb:hover{
     background-color: rgba(59,89,152,1);
 }
 
 .btn-gpl{
-    background-color: rgba(221,75,57,0.7);
+    background-color: rgba(221,75,57,0.8);
 }
 .btn-gpl:hover{
     background-color: rgba(221,75,57,1);
 }
 .btn-li{
-    background-color: rgba(0,119,181,0.7);
+    background-color: rgba(0,119,181,0.8);
     font-size: 38px;
-    padding-top: 0px;
+    padding-top: 0;
 }
 .i-btn-li{
     position: relative;
@@ -323,14 +345,14 @@ body {
     background-color: rgba(0,119,181,1);
 }
 .btn-tw{
-    background-color: rgba(0, 172, 237,0.7);
+    background-color: rgba(0, 172, 237,0.8);
 }
 .btn-tw:hover{
     background-color: rgba(0, 172, 237,1);
 }
 .btn-vk{
-    background-color: rgba(69, 102, 142,0.7);
-    padding-top: 0px;
+    background-color: rgba(69, 102, 142,0.8);
+    padding-top: 0;
 }
 .btn-vk:hover{
     background-color: rgba(69, 102, 142,1);

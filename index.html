@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <title>Intita first page</title>
@@ -9,6 +10,10 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="external_libs/fontello/css/fontello.css">
     <script src="external_libs/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/Carousel/liCover.css">
+    <!--<link rel="stylesheet" href="external_libs/bootstrap/bootstrap.min.css">-->
+    <link rel="stylesheet" href="css/Carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/Carousel/owl.theme.default.css">
 
     <!--    end of styles-->
 
@@ -83,70 +88,133 @@
 <!--   endof header-->
 <!--   content-->
 <!--buttons block-->
-<!--<div id="min-menu" class='btn social-btn btn-menu animated pulse dropdown-menu'>-->
-    <!---->
-<!--</div>-->
-
-<!--<div class="min_menu"></div>-->
 <div class="btn-group min_menu">
-    <button id="min-menu" type="button" class="btn social-btn btn-menu animated pulse dropdown-toggle"
+    <button type="button" class="btn social-btn-all btn-menu animated pulse dropdown-toggle"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class='icon-menu .btn-menu i-btn-menu'></i>
+        <i class='icon-menu i-btn-menu'></i>
     </button>
-    <ul class="dropdown-menu  dropdown_menu_ul">
-        <a href="#"><img class="img_ITA" src="imgs/Logo_bigUA.png" alt="logo"></a>
+    <ul class="dropdown-menu animated slideInLeft dropdown_menu_ul ">
+        <li><a href="#"><img class="img_ITA" src="imgs/Logo_bigUA.png" alt="logo"></a></li>
         <li role="separator" class="divider"></li>
-        <div class="localisationButtons_min_menu">
+        <li>
+            <div class="localisationButtons_min_menu">
             <a href="#">en</a>
             <a href="#">ua</a>
             <a href="#">ru</a>
-        </div>
+            </div>
+        </li>
         <li role="separator" class="divider"></li>
         <li><a href="#">Курси</a></li>
         <li><a href="#">Викладачі</a></li>
         <li><a href="#">Випускники</a></li>
         <li><a href="#">Форум</a></li>
         <li><a href="#">Про нас</a></li>
+        <li><a href="#">Мій кабінет</a></li>
+        <li><div class="enterButton_min_div">
+            <a href="#" class="enterButton_min_a">Вхід</a>
+        </div></li>
     </ul>
 </div>
 
-<div class="social-btns hidden-sm hidden-xs">
+<div class="social-btns-all hidden-sm hidden-xs">
     <a href="#">
-        <div class="btn social-btn btn-fb">
+        <div class="btn social-btn-all btn-fb">
             <i class="icon-facebook"></i>
         </div>
     </a>
     <a href="#">
-        <div class="btn social-btn btn-gpl">
+        <div class="btn social-btn-all btn-gpl">
             <i class="icon-gplus"></i>
         </div>
     </a>
     <a href="#">
-        <div class="btn social-btn btn-li" >
+        <div class="btn social-btn-all btn-li" >
             <i class="icon-linkedin i-btn-li"></i>
         </div>
     </a>
     <a href="#" >
-        <div class="btn social-btn btn-tw">
+        <div class="btn social-btn-all btn-tw">
             <i class="icon-twitter"></i>
         </div>
     </a>
     <a href="#">
-        <div class="btn social-btn btn-vk">
+        <div class="btn social-btn-all btn-vk">
             <i class="icon-vkontakte i-btn-vk"></i>
         </div>
     </a>
 </div>
 <!--endof buttons block-->
 <!--main <content-->
+<!--    Carusel-->
 
-<!--    </content-->
-    <!--endof main content-->
-    <!--buttons block-->
+<!--   Фіксовані елементи-->
+<div class="slider_center">
+    <div class="slider_center_text">
+        <p class="losung">Програмуй майбутнє!</p>
+        <hr>
+
+    </div>
+    <div class="slider_center_hr">
+        <hr>
+    </div>
+    <div class="slider_scroll">
+        <div class="scroll">
+            <img src="images/Carusel/line.png" alt="line">
+            <div class="">
+                <a class="slider_button" href="#">Почати /></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="slider" class="owl-carousel">
+    <div class="slide">
+        <p>Ми гарантуємо Тобі отримання пропозиції працевлаштування
+            <br>після успішного завершення навчання</p>
+        <img src="images/Carusel/1.jpg" alt="">
+    </div>
+    <div class="slide">
+        <p>
+            Не упусти свій шанс змінити світ - отримай якісну та сучасну освіту
+            <br>і стань класним спеціалістом!
+        </p>
+        <img src="images/Carusel/2.jpg" alt="">
+    </div>
+    <div class="slide">
+        <p>Хочеш стати висококласним спеціалістом? Приймай вірне рішення - навчайся з нами!
+            <br> Ми працюємо на результат!</p>
+        <img src="images/Carusel/3.jpg" alt="">
+    </div>
+    <div class="slide">
+        <p>Не втрачай шансу на творчу, цікаву та перспективну працю –
+            <br> плануй своє професійне майбутнє вже сьогодні!</p>
+        <img src="images/Carusel/4.jpg" alt="">
+    </div>
+    <div class="slide">
+        <p>Один рік цікавого навчання - і ти станеш гарним програмістом
+            <br>готовим працювати в індустрії інформаційних технологій!</p>
+        <img src="images/Carusel/5.jpg" alt="">
+    </div>
+    <div class="slide">
+        <p>Мрієш заробляти улюбленою справою і отримувати задоволення від професії?
+            <br> Скористайся можливістю потрапити у світ інформаційних технологій!</p>
+        <img src="images/Carusel/6.jpg" alt="">
+    </div>
+    <div class="slide">
+        <p>
+            В майбутньому буде два типи робіт: ті - де Ти будеш керувати комп'ютером - програмувати
+            <br> і ті - де машини вказуватимуть що робити Тобі!</p>
+        <img src="images/Carusel/7.jpg" alt="">
+    </div>
+</div>
+<div class="mouse_line">
+    <a id="mouse_line"><img href="#" src="images/Carusel/mouseLine.png"></a>
+
+</div>
+
+<!--    End of Carusel-->
 
 
-    <!--end of buttons block-->
-    <!--main <content-->
 
     <!--    </content-->
 
@@ -273,8 +341,12 @@
 <!--scripts-->
 <script src="external_libs/bootstrap/bootstrap.min.js"></script>
 <script src="js/menuButton.js"></script>
+<!--<script src="js/jquery-1.10.2.min.js"></script>-->
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.liCover.js"></script>
+<script src="js/script.js"></script>
+
 <!--end of scripts-->
 
 </body>
-
 </html>

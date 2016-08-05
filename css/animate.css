@@ -3151,6 +3151,9 @@
 .slideInLeft {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
+  -webkit-animation-duration: .6s;
+  animation-duration: .6s;
+
 }
 
 @-webkit-keyframes slideInRight {
