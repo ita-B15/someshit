@@ -3,10 +3,10 @@
  */
 
 $(document).ready(function () {
-    $(window).scroll(function () {
-        var win_widht = window.innerWidth;
-        if (($(window).scrollTop() < 90 && win_widht > 991) ||
-            $(window).scrollTop() < 300 && win_widht <= 991) {
+    $(document).scroll(function () {
+        var win_widht =$(window).width();
+        if (($(document).scrollTop() < 90 && win_widht > 991) ||
+            $(document).scrollTop() < 300 && win_widht <= 991) {
             $(".btn-menu").hide();
             $(".dropdown_menu_ul").hide();
         }
@@ -31,7 +31,7 @@ $(document).ready(function () {
 
     //Check to see if the window is top if not then display button
     $(document).scroll(function () {
-        if ($(document).scrollTop() > 600) {
+        if ($(document).scrollTop() > 1000) {
             $('.scrollToTop-V').fadeIn();
         } else {
             $('.scrollToTop-V').fadeOut();

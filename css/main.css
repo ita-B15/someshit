@@ -214,10 +214,7 @@ body {
 .step_container {
     background: white;
     margin-top: 40px;
-    padding-top: 0;
-    padding-right: 0;
-    padding-left: 0;
-    padding-bottom: 0;
+    padding: 0;
     border-radius: 3px;
     box-shadow: 0 0 0.2em 0.07em #b6b2b5;
     position: relative;
@@ -489,7 +486,9 @@ body {
     }
 
     .i-btn-menu {
-        font-size: 115px;
+        font-size: 135px;
+        top: -20px;
+        left: -20px;
     }
 }
 
@@ -518,7 +517,6 @@ body {
 
 .rocket-station {
     /*position: fixed;*/
-
 }
 
 .rocket {
@@ -540,6 +538,7 @@ body {
     z-index: 102;
     display: none;
 }
+
 @media screen and (max-width: 991px) {
     .scrollToTop-V {
         width: 200px;
