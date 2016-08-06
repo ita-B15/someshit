@@ -5,9 +5,6 @@ body {
     height: 100%;
 }
 
-/**{*/
-/*border: 1px black solid;*/
-/*}*/
 /*endof common styles*/
 
 /*header styles*/
@@ -21,7 +18,7 @@ body {
 }
 
 .navbuttons_N5U {
-    margin: 5rem 0 12px 0;
+    margin: 5rem 0 13px 0;
 }
 
 .navbuttonStyle_N5U {
@@ -36,7 +33,8 @@ body {
 }
 
 .enterButtonBlueBorder_N5U {
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     border: 2px solid #4b70a3;
     padding-top: 8px;
     margin-left: 35vw;
@@ -46,6 +44,8 @@ body {
     border-radius: 10px;
     border: 3px solid white;
     padding: 5px 0 5px 0;
+    margin-left: 35vw;
+
 }
 
 .enterButton_N5U {
@@ -70,89 +70,6 @@ body {
 .localisationButtons_N5U > a:not(:last-child) {
     border-right: 2px solid #acacac;
     padding-right: 4px;
-}
-
-@media screen and (min-width: 769px) and (max-width: 991px) {
-    .headerIMG_N5U {
-        width: 40rem;
-        margin-left: calc(50vw - 200px);
-    }
-
-    .enterButtonBlueBorder_N5U {
-        position: relative;
-        top: 24px;
-        left: 10vw;
-        border-radius: 15px;
-        border: 2px solid #4b70a3;
-        padding-top: 25px;
-        /*margin: -23.5px 0 0 calc(50vw - 70px);*/
-    }
-
-    .enterButtonWhiteBorder_N5U {
-        border-radius: 15px;
-        border: 5px solid white;
-        padding: 10px 0 10px 0;
-    }
-
-    .enterButton_N5U {
-        font-size: 3rem;
-        border-radius: 10px;
-    }
-
-    .navbuttonStyle_N5U {
-        font-size: 3rem;
-    }
-
-    .navbuttons_N5U {
-        margin-top: 0;
-        margin-left: 15vw;
-    }
-
-    .localisationButtons_N5U {
-        margin-top: -0px;
-    }
-
-    .localisationButtons_N5U > a {
-        font-size: 3rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .headerIMG_N5U {
-        width: 40rem;
-        margin-left: calc(50vw - 200px);
-    }
-
-    .enterButtonBlueBorder_N5U {
-        border-radius: 15px;
-        border: 2px solid #4b70a3;
-        padding-top: 25px;
-        margin: -1px 0 0 calc(50vw - 70px);
-    }
-
-    .enterButtonWhiteBorder_N5U {
-        border-radius: 15px;
-        border: 5px solid white;
-        padding: 10px 0 10px 0;
-        background-color: white;
-    }
-
-    .enterButton_N5U {
-        font-size: 3rem;
-        border-radius: 10px;
-    }
-
-    .navbuttonStyle_N5U {
-        font-size: 3rem;
-        margin-left: 15vw;
-    }
-
-    .localisationButtons_N5U {
-        margin-top: -42px;
-    }
-
-    .localisationButtons_N5U > a {
-    }
 }
 
 /*endof header styles*/
@@ -480,6 +397,84 @@ body {
 }
 /*endof social buttons styles*/
 /*form styles*/
+.form_N5U {
+    background-image: url("../images/formfon.jpg");
+}
+.form_N5U>.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.title_N5U {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.title_N5U>p:nth-child(2) {
+    margin-top: -20px;
+    font-size: 20px;
+}
+.formContainer_N5U {
+    border-radius: 10px;
+    position: relative;
+    left: calc(50% - 270px);
+    background-color: white;
+    width: 540px;
+    height: 420px;
+    margin-bottom: 100px;
+}
+.formInputFields_N5U {
+    padding: 50px 35px 0 35px;
+}
+.formInputFields_N5U>input:first-child {
+    margin-bottom: 10px;
+    height: 50px;
+}
+.formInputFields_N5U>input:last-child {
+    height: 50px;
+}
+.formEnterButton_N5U {
+    margin-left: 460px;
+}
+.formGoButton_N5U {
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: #4b75a4;
+    margin-left: 170px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 7px;
+}
+.formGoButton_N5U>a {
+    color: white;
+    text-decoration: none;
+}
+.formGoButton_N5U:hover {
+    background-color: #5e5e5e;
+}
+.formCenterBorder_N5U {
+    margin: 35px 35px 0 35px;
+    border-bottom: 1px solid #4b75a4;
+}
+.formMessedge_N5U {
+    text-align: center;
+    color: #b0b0b0;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.formSocialButtons_N5U {
+    margin-top: 13px;
+    text-align: center;
+}
+.formSocialButtons_N5U>a {
+    text-decoration: none;
+    color: #4b75a4;
+}.formSocialButtons_N5U>a:hover {
+    color: #5e5e5e;
+}
 /*endof form styles*/
 /*Scroll on top styles and rocket*/
 .scrollToTop-V {
