@@ -28,11 +28,12 @@ function hideExaust() {
 }
 $(document).ready(function () {
 
-    var win_height = $(document).height();
+    var doc_height = $(document).height();
+    var win_height = $(window).height();
 
     //Check to see if the window is top if not then display button
     $(document).scroll(function () {
-        if ($(document).scrollTop() > win_height * 0.7) {
+        if ($(document).scrollTop() > (doc_height - win_height) * 0.5) {
             $('.scrollToTop-V').fadeIn();
         } else {
             $('.scrollToTop-V').fadeOut();
@@ -44,27 +45,29 @@ $(document).ready(function () {
     });
 
     /*Click event to scroll to top*/
-    var scrollTop = $('.scrollToTop-V');
+    var winScrollTop = $('.scrollToTop-V');
 
-    scrollTop.click(function () {
-        $('html, body').animate({scrollTop: 0}, 2500);
+    winScrollTop.click(function () {
+        $('html, body').animate({scrollTop: 0}, 2000);
         return false;
 
     });
 
     var rocket = $('.rocket');
-    scrollTop.click(function () {
-        rocket.fadeIn();
-        rocket.animate({bottom: -win_height + 950}, 0);
-        rocket.animate({bottom: win_height + 950}, 3500);
+    winScrollTop.click(function () {
+        rocket.show();
+        rocket.animate({bottom: -$(document).scrollTop() + win_height * 0.4}, 0);
+        rocket.animate({bottom: ($(document).scrollTop() )}, 3000);
         return false;
     });
     var exhaust = $('.exhaust');
-    scrollTop.click(function () {
-        exhaust.css('top', win_height - 300);
+    winScrollTop.click(function () {
+        exhaust.css('top', $(document).scrollTop() + win_height * 0.55);
         exhaust.fadeIn();
         return false;
     });
+    console.log(doc_height);
     console.log(win_height);
+    console.log($(document).scrollTop());
 
 });

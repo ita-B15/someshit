@@ -478,37 +478,9 @@ body {
     margin-left: -1px;
     margin-right: 1px;
 }
-
-@media screen and (max-width: 991px) {
-    .dropdown_menu_ul {
-        width: 100%;
-        font-size: 80px;
-        padding-left: 20%;
-    }
-
-    .img_ITA {
-        display: none;
-    }
-
-    .btn-menu {
-        border-radius: 5%;
-        position: fixed;
-        height: 150px;
-        width: 150px;
-    }
-
-    .i-btn-menu {
-        font-size: 135px;
-        top: -20px;
-        left: -20px;
-    }
-}
-
 /*endof social buttons styles*/
 /*form styles*/
-
 /*endof form styles*/
-
 /*Scroll on top styles and rocket*/
 .scrollToTop-V {
     width: 60px;
@@ -525,10 +497,6 @@ body {
 .scrollToTop-V:hover {
     text-decoration: none;
     z-index: 1000;
-}
-
-.rocket-station {
-    /*position: fixed;*/
 }
 
 .rocket {
@@ -549,12 +517,4 @@ body {
     left: calc(50vw - 272px);
     z-index: 102;
     display: none;
-}
-
-@media screen and (max-width: 991px) {
-    .scrollToTop-V {
-        width: 200px;
-        height: 200px;
-        background-size: 200px;
-    }
 }
