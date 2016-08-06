@@ -37,10 +37,6 @@
         left: -20px;
     }
 
-    .i-btn-menu:hover {
-        display: none;
-    }
-
 }
 
 @media screen and (max-device-width: 768px) {
@@ -67,9 +63,6 @@
         left: -20px;
     }
 
-    .i-btn-menu:hover {
-        display: none;
-    }
 }
 
 /*queries for scrolltop button*/
