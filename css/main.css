@@ -45,7 +45,7 @@ body {
     border: 3px solid white;
     padding: 5px 0 5px 0;
     margin-left: 35vw;
-
+    z-index: 30;
 }
 
 .enterButton_N5U {
@@ -500,7 +500,7 @@ body {
     height: 207px;
     position: absolute;
     left: calc(50vw - 42px);
-    z-index: 101;
+    z-index: 201;
     display: none;
 }
 
@@ -510,6 +510,6 @@ body {
     height: 313px;
     position: absolute;
     left: calc(50vw - 272px);
-    z-index: 102;
+    z-index: 200;
     display: none;
 }

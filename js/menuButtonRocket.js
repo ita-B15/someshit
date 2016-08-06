@@ -48,26 +48,26 @@ $(document).ready(function () {
     var winScrollTop = $('.scrollToTop-V');
 
     winScrollTop.click(function () {
-        $('html, body').animate({scrollTop: 0}, 2000);
+        $('html, body').animate({scrollTop: 0}, 3000);
         return false;
 
     });
 
     var rocket = $('.rocket');
     winScrollTop.click(function () {
-        rocket.show();
-        rocket.animate({bottom: -$(document).scrollTop() + win_height * 0.4}, 0);
-        rocket.animate({bottom: ($(document).scrollTop() + win_height * 0.4 )}, 3500);
+        rocket.fadeIn();
+        rocket.animate({bottom: (-$(document).scrollTop() + win_height * 0.4)}, 0);
+        rocket.animate({bottom: ($(document).scrollTop() + win_height * 0.4 )}, 4000);
         return false;
     });
     var exhaust = $('.exhaust');
     winScrollTop.click(function () {
-        exhaust.css('top', $(document).scrollTop() + win_height * 0.5);
+        exhaust.css('top', ($(document).scrollTop() + win_height * 0.6));
         exhaust.fadeIn();
         return false;
     });
-    console.log(doc_height);
-    console.log(win_height);
-    console.log($(document).scrollTop());
+    console.log("doc_height:"+ doc_height);
+    console.log("win_height:" + win_height);
+    console.log("scrollTop" + $(document).scrollTop());
 
 });

@@ -86,7 +86,7 @@
 
 /*queries for min-menu*/
 
-@media screen and (min-device-width: 375px) and (max-device-width: 736px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 736px) {
     .dropdown_menu_ul {
         width: 70%;
         font-size: 40px;
@@ -100,19 +100,19 @@
     .btn-menu {
         border-radius: 5%;
         position: fixed;
-        height: 120px;
-        width: 120px;
+        height: 100px;
+        width: 100px;
     }
 
     .i-btn-menu {
-        font-size: 113px;
-        top: -20px;
-        left: -20px;
+        font-size: 95px;
+        top: -17px;
+        left: -17px;
     }
 
 }
 
-@media screen and (max-device-width: 374px) {
+@media only screen and (max-device-width: 374px) {
     .dropdown_menu_ul {
         width: 100%;
         font-size: 80px;
@@ -140,7 +140,7 @@
 /*queries for form*/
 @media only screen and (max-width:991px) {
     .formContainer_N5U {
-        left: 0px;
+        left: 0;
         border-radius: 15px;
         background-color: white;
         width: 100%;
@@ -186,11 +186,18 @@
 
 /*queries for scrolltop button*/
 
-@media screen and (max-device-width: 991px) {
+@media only screen and (max-device-width: 374px) {
     .scrollToTop-V {
         width: 150px;
         height: 150px;
         background-size: 150px;
+    }
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 736px) {
+    .scrollToTop-V {
+        width: 100px;
+        height: 100px;
+        background-size: 100px;
     }
 }
 
