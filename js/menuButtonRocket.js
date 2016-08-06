@@ -57,12 +57,12 @@ $(document).ready(function () {
     winScrollTop.click(function () {
         rocket.show();
         rocket.animate({bottom: -$(document).scrollTop() + win_height * 0.4}, 0);
-        rocket.animate({bottom: ($(document).scrollTop() )}, 3000);
+        rocket.animate({bottom: ($(document).scrollTop() + win_height * 0.4 )}, 3500);
         return false;
     });
     var exhaust = $('.exhaust');
     winScrollTop.click(function () {
-        exhaust.css('top', $(document).scrollTop() + win_height * 0.55);
+        exhaust.css('top', $(document).scrollTop() + win_height * 0.5);
         exhaust.fadeIn();
         return false;
     });

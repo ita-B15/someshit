@@ -13,7 +13,7 @@
 
 /*queries for menu*/
 
-@media screen and (min-device-width: 769px) and (max-device-width: 991px) {
+@media screen and (min-device-width: 375px) and (max-device-width: 568px) {
     .dropdown_menu_ul {
         width: 70%;
         font-size: 50px;
@@ -39,7 +39,7 @@
 
 }
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-device-width: 374px) {
     .dropdown_menu_ul {
         width: 100%;
         font-size: 80px;
