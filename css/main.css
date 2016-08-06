@@ -72,7 +72,7 @@ body {
     padding-right: 4px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 991px){
+@media screen and (min-width: 769px) and (max-width: 991px) {
     .headerIMG_N5U {
         width: 40rem;
         margin-left: calc(50vw - 200px);
@@ -102,6 +102,7 @@ body {
     .navbuttonStyle_N5U {
         font-size: 3rem;
     }
+
     .navbuttons_N5U {
         margin-top: 0;
         margin-left: 15vw;
@@ -111,11 +112,12 @@ body {
         margin-top: -0px;
     }
 
-    .localisationButtons_N5U>a {
+    .localisationButtons_N5U > a {
         font-size: 3rem;
     }
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
     .headerIMG_N5U {
         width: 40rem;
         margin-left: calc(50vw - 200px);
@@ -148,7 +150,8 @@ body {
     .localisationButtons_N5U {
         margin-top: -42px;
     }
-    .localisationButtons_N5U>a {
+
+    .localisationButtons_N5U > a {
     }
 }
 
@@ -220,11 +223,13 @@ body {
 
 .icon-container {
     position: absolute;
-    left: -3%;
+    left: -6%;
     top: -18%;
     font-size: 7em;
     color: white;
     text-shadow: 0 0 5px rgba(127, 127, 127, 1);
+    /**/
+
 }
 
 .icon {
@@ -234,14 +239,23 @@ body {
 .icon-inner {
     position: absolute;
     top: 17%;
-    left: 37%;
+    left: 41%;
     font-size: 0.5em;
     color: #666666;
     text-shadow: none;
+
 }
 
 .step_container:nth-child(even) > .icon-container {
-    left: 94%;
+    left: 92%;
+}
+
+.step_container:nth-child(odd) > .icon-container {
+    transform: scale(-1, 1);
+}
+
+.step_container:nth-child(odd) > .icon-container .icon-inner {
+    transform: scale(-1, 1);
 }
 
 .step_head {
