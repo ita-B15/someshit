@@ -39,7 +39,7 @@ body {
     border-radius: 10px;
     border: 2px solid #4b70a3;
     padding-top: 8px;
-    margin-left: calc(35vw);
+    margin-left: 35vw;
 }
 
 .enterButtonWhiteBorder_N5U {
@@ -72,7 +72,50 @@ body {
     padding-right: 4px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 991px){
+    .headerIMG_N5U {
+        width: 40rem;
+        margin-left: calc(50vw - 200px);
+    }
+
+    .enterButtonBlueBorder_N5U {
+        position: relative;
+        top: 24px;
+        left: 10vw;
+        border-radius: 15px;
+        border: 2px solid #4b70a3;
+        padding-top: 25px;
+        /*margin: -23.5px 0 0 calc(50vw - 70px);*/
+    }
+
+    .enterButtonWhiteBorder_N5U {
+        border-radius: 15px;
+        border: 5px solid white;
+        padding: 10px 0 10px 0;
+    }
+
+    .enterButton_N5U {
+        font-size: 3rem;
+        border-radius: 10px;
+    }
+
+    .navbuttonStyle_N5U {
+        font-size: 3rem;
+    }
+    .navbuttons_N5U {
+        margin-top: 0;
+        margin-left: 15vw;
+    }
+
+    .localisationButtons_N5U {
+        margin-top: -0px;
+    }
+
+    .localisationButtons_N5U>a {
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 768px){
     .headerIMG_N5U {
         width: 40rem;
         margin-left: calc(50vw - 200px);
@@ -99,58 +142,13 @@ body {
 
     .navbuttonStyle_N5U {
         font-size: 3rem;
-        margin-left: 10vw;
+        margin-left: 15vw;
     }
 
     .localisationButtons_N5U {
         margin-top: -42px;
     }
-
-    .localisationButtons_N5U > a {
-        font-size: 2rem;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 991px) {
-    .headerIMG_N5U {
-        width: 40rem;
-        margin-left: calc(50vw - 200px);
-        /*margin-bottom: 20px;*/
-    }
-
-    .enterButtonBlueBorder_N5U {
-        border-radius: 15px;
-        border: 2px solid #4b70a3;
-        padding-top: 25px;
-        margin: -23.5px 0 0 calc(50vw - 70px);
-    }
-
-    .enterButtonWhiteBorder_N5U {
-        border-radius: 15px;
-        border: 5px solid white;
-        padding: 10px 0 10px 0;
-    }
-
-    .enterButton_N5U {
-        font-size: 3rem;
-        border-radius: 10px;
-    }
-
-    .navbuttonStyle_N5U {
-        font-size: 3rem;
-    }
-
-    .navbuttons_N5U {
-        margin-top: 0;
-        margin-left: 25vw;
-    }
-
-    .localisationButtons_N5U {
-        margin-top: -0px;
-    }
-
-    .localisationButtons_N5U > a {
-        font-size: 2rem;
+    .localisationButtons_N5U>a {
     }
 }
 
@@ -315,8 +313,8 @@ body {
 /*social buttons styles*/
 .min_menu-V {
     position: fixed;
-    left: 15px;
-    top: 10px;
+    left: 1%;
+    top: 1%;
     padding: 0;
     z-index: 50;
 }
@@ -324,7 +322,7 @@ body {
 .dropdown_menu_ul {
     position: fixed;
     top: 0;
-    left: 2px;
+    left: 0;
     z-index: -1;
     width: 250px;
     padding-left: 65px;
@@ -366,8 +364,8 @@ body {
 
 .social-btns {
     position: fixed;
-    top: 110px;
-    left: 15px;
+    top: 130px;
+    left: 1%;
     z-index: 50;
 }
 

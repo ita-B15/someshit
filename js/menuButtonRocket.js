@@ -4,7 +4,7 @@
 
 $(document).ready(function () {
     $(document).scroll(function () {
-        var win_widht =$(window).width();
+        var win_widht = $(window).width();
         if (($(document).scrollTop() < 90 && win_widht > 991) ||
             $(document).scrollTop() < 300 && win_widht <= 991) {
             $(".btn-menu").hide();
@@ -25,7 +25,6 @@ function hideRocket() {
 }
 function hideExaust() {
     $('.exhaust').hide();
-
 }
 $(document).ready(function () {
 
@@ -37,8 +36,8 @@ $(document).ready(function () {
             $('.scrollToTop-V').fadeOut();
         }
         if ($(document).scrollTop() == 0) {
-            setTimeout(hideRocket(), 500);
-            setTimeout(hideExaust(), 500);
+            hideRocket();
+            hideExaust();
         }
     });
 
