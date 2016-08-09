@@ -20,12 +20,6 @@ $(document).ready(function () {
 });
 /*Scroll-Top*/
 
-function hideRocket() {
-    $('.rocket').hide();
-}
-function hideExaust() {
-    $('.exhaust').hide();
-}
 $(document).ready(function () {
 
     var doc_height = $(document).height();
@@ -38,36 +32,30 @@ $(document).ready(function () {
         } else {
             $('.scrollToTop-V').fadeOut();
         }
-        if ($(document).scrollTop() == 0) {
-            hideRocket();
-            hideExaust();
-        }
     });
 
     /*Click event to scroll to top*/
     var winScrollTop = $('.scrollToTop-V');
 
-    winScrollTop.click(function () {
-        $('html, body').animate({scrollTop: 0}, 3000);
-        return false;
-
-    });
-
     var rocket = $('.rocket');
-    winScrollTop.click(function () {
-        rocket.fadeIn();
-        rocket.animate({bottom: (-$(document).scrollTop() + win_height * 0.4)}, 0);
-        rocket.animate({bottom: ($(document).scrollTop() + win_height * 0.4 )}, 4000);
-        return false;
-    });
-    var exhaust = $('.exhaust');
-    winScrollTop.click(function () {
-        exhaust.css('top', ($(document).scrollTop() + win_height * 0.6));
-        exhaust.fadeIn();
-        return false;
-    });
-    console.log("doc_height:"+ doc_height);
-    console.log("win_height:" + win_height);
-    console.log("scrollTop" + $(document).scrollTop());
 
+    var exhaust = $('.exhaust');
+
+    var scrollFromTop = $(document).scrollTop();
+
+    winScrollTop.click(function () {
+        doc_height = $(document).height();
+        win_height = $(window).height();
+        scrollFromTop = $(document).scrollTop();
+        exhaust.css('top', (scrollFromTop + win_height - 330));
+        rocket.css('top', (scrollFromTop + win_height -480));
+        rocket.fadeIn(300);
+        exhaust.fadeIn(100);
+        $('html, body').animate({scrollTop: 0}, {duration: 3500, easing: "swing"});
+        rocket.animate({top: -450}, {duration: 3500, easing: "swing"});
+        rocket.fadeOut();
+        exhaust.fadeOut(2000);
+
+        return false;
+    });
 });

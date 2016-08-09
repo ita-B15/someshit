@@ -5,12 +5,6 @@
 .coverParent {
     position: relative;
 }
-
-.caruselka {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
 #slider,
 .slide {
     position: relative;
@@ -36,17 +30,6 @@
     min-width: 100%;
     margin-top: 350px;
 }
-
-/*html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  font-family: "MyriadPro", sans-serif;
-  box-sizing: border-box;
-  font-size: inherit;
-}*/
-
 .slider_center {
     position: relative;
     width: 100%;
@@ -54,16 +37,14 @@ body {
     margin-top: 0px;
 }
 
-.slider_center_text {
+.slider_center .losung {
     position: absolute;
     margin-top: 200px;
-    /*top: 350px;*/
     text-transform: uppercase;
 }
 
 .losung {
     font-size: 66px;
-    /*  font-size: 5rem;*/
     font-family: "Myriad Pro", sans-serif;
     text-shadow: 0.05em 0.05em 0.05em #000;
     position: relative;
@@ -75,11 +56,6 @@ body {
     font-weight: lighter;
     width: 100%;
 }
-
-.slider_container {
-    /*position: absolute;*/
-}
-
 .slider_scroll {
     position: absolute;
     margin-top: 450px;
@@ -116,12 +92,11 @@ body {
 
 .slider_scroll .button a {
     width: 160px;
-    height: 50px;
-    position: absolute;
+    height: 55px;
     text-shadow: 0.1em 0.1em 0.1em black;
     color: white;
     font: normal 400 0.54em/2.16em "MyriadPro2", sans-serif;
-    line-height: 300%;
+    line-height: 299%;
     vertical-align: middle;
     text-align: center;
     text-decoration: none;
@@ -133,8 +108,7 @@ body {
     z-index: 4;
     font-size: 20px;
     margin-left: -80px;
-    margin-top: 45px;
-    padding-top: 4px;
+    margin-top: 46px;
     text-transform: uppercase;
 }
 
@@ -177,7 +151,6 @@ hr {
     border-width: 1px;
     z-index: 10;
 }
-
 .mouse_line {
     display: inline-block;
     position: relative;
@@ -190,7 +163,6 @@ hr {
 .mouse_line img {
     width: 100%;
 }
-
 #mouse_line a:hover {
     color: #666666;
 }

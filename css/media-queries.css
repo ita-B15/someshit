@@ -1,4 +1,4 @@
-/*queries for content imgs*/
+/* Medium Devices, Desktops */
 @media only screen and (max-width:991px) {
 
 	.about-box{
@@ -10,6 +10,12 @@
 	.step_container p:last-child{
 		padding-bottom: 1rem;
 	}
+	.slider_center.losung {
+    font-size: 50px;
+ 	 }
+  	.slide p {
+    font-size: 25px;
+  }
 }
 
 /*queries for header*/
@@ -201,3 +207,31 @@
     }
 }
 
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    .scroll img {
+        visibility: hidden;
+    }
+    .slider_center_hr {
+        visibility: hidden;
+    }
+    .slider_scroll .button a {
+        width: 100px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .slider_center.losung {
+        line-height: 47px;
+    }
+    .slide p {
+        font-size: 20px;
+    }
+}
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+    .slide p {
+        font-size: 20px;
+    }
+}
